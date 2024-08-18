@@ -1,0 +1,7089 @@
+[
+  {
+    "className": "Canvas",
+    "superClass": "java/awt/Canvas",
+    "access": 49,
+    "obfuscatedClassName": "ab",
+    "fields": [
+      {
+        "owner": "ab",
+        "fieldName": "component",
+        "descriptor": "Ljava/awt/Component;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Node",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "se",
+    "fields": [
+      {
+        "owner": "se",
+        "fieldName": "next",
+        "descriptor": "Lse;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "hq"
+      },
+      {
+        "owner": "se",
+        "fieldName": "uid",
+        "descriptor": "J",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "hd"
+      },
+      {
+        "owner": "se",
+        "fieldName": "previous",
+        "descriptor": "Lse;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "hw"
+      }
+    ],
+    "methods": [
+      {
+        "owner": "se",
+        "methodName": "hasNext()",
+        "descriptor": "()Z",
+        "isStatic": false,
+        "obfuscatedMethodName": "gu"
+      },
+      {
+        "owner": "se",
+        "methodName": "remove()",
+        "descriptor": "()V",
+        "isStatic": false,
+        "obfuscatedMethodName": "gv"
+      }
+    ]
+  },
+  {
+    "className": "ByteBuffer",
+    "superClass": "se",
+    "access": 33,
+    "obfuscatedClassName": "uq",
+    "fields": [
+      {
+        "owner": "uq",
+        "fieldName": "offset",
+        "descriptor": "I",
+        "decoder": -1391428115,
+        "encoder": -1723242523,
+        "isStatic": false,
+        "obfuscatedFieldName": "ao"
+      },
+      {
+        "owner": "uq",
+        "fieldName": "bytes",
+        "descriptor": "[B",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "az"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Link",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "sw",
+    "fields": [
+      {
+        "owner": "sw",
+        "fieldName": "next",
+        "descriptor": "Lsw;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      },
+      {
+        "owner": "sw",
+        "fieldName": "previous",
+        "descriptor": "Lsw;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      }
+    ],
+    "methods": [
+      {
+        "owner": "sw",
+        "methodName": "remove()",
+        "descriptor": "()V",
+        "isStatic": false,
+        "obfuscatedMethodName": "aq"
+      }
+    ]
+  },
+  {
+    "className": "LinkedList",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "py",
+    "fields": [
+      {
+        "owner": "py",
+        "fieldName": "head",
+        "descriptor": "Lsw;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "py",
+        "fieldName": "pointer",
+        "descriptor": "Lsw;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      }
+    ],
+    "methods": [
+      {
+        "owner": "py",
+        "methodName": "addFirst()",
+        "descriptor": "(Lsw;)V",
+        "isStatic": false,
+        "obfuscatedMethodName": "aq"
+      },
+      {
+        "owner": "py",
+        "methodName": "previous()",
+        "descriptor": "()Lsw;",
+        "isStatic": false,
+        "obfuscatedMethodName": "al"
+      },
+      {
+        "owner": "py",
+        "methodName": "last()",
+        "descriptor": "()Lsw;",
+        "isStatic": false,
+        "obfuscatedMethodName": "aw"
+      }
+    ]
+  },
+  {
+    "className": "RSException",
+    "superClass": "java/lang/RuntimeException",
+    "access": 33,
+    "obfuscatedClassName": "vt",
+    "fields": [
+      {
+        "owner": "vt",
+        "fieldName": "throwable",
+        "descriptor": "Ljava/lang/Throwable;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aa"
+      },
+      {
+        "owner": "vt",
+        "fieldName": "text",
+        "descriptor": "Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "as"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Inflater",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "vo",
+    "fields": [
+      {
+        "owner": "vo",
+        "fieldName": "getInflater()",
+        "descriptor": "Ljava/util/zip/Inflater;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": [
+      {
+        "owner": "vo",
+        "methodName": "decompress()",
+        "descriptor": "(Luq;[B)V",
+        "isStatic": false,
+        "obfuscatedMethodName": "aq"
+      }
+    ]
+  },
+  {
+    "className": "ItemStorage",
+    "superClass": "se",
+    "access": 33,
+    "obfuscatedClassName": "du",
+    "fields": [
+      {
+        "owner": "du",
+        "fieldName": "ids",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "du",
+        "fieldName": "stackSizes",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "ByteArrayNode",
+    "superClass": "se",
+    "access": 33,
+    "obfuscatedClassName": "uq",
+    "fields": [
+      {
+        "owner": "uq",
+        "fieldName": "bytes",
+        "descriptor": "[B",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "az"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "AbstractByteBuffer",
+    "superClass": "java/lang/Object",
+    "access": 1057,
+    "obfuscatedClassName": "no",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "BasicByteBuffer",
+    "superClass": "no",
+    "access": 33,
+    "obfuscatedClassName": "nh",
+    "fields": [
+      {
+        "owner": "nh",
+        "fieldName": "buffer",
+        "descriptor": "Ljava/nio/ByteBuffer;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Producer",
+    "superClass": "java/lang/Object",
+    "access": 1057,
+    "obfuscatedClassName": "ua",
+    "fields": [
+      {
+        "owner": "ua",
+        "fieldName": "pixels",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "ua",
+        "fieldName": "width",
+        "descriptor": "I",
+        "decoder": 1797318603,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "ua",
+        "fieldName": "height",
+        "descriptor": "I",
+        "decoder": -1733921925,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "ComponentProducer",
+    "superClass": "ua",
+    "access": 49,
+    "obfuscatedClassName": "bt",
+    "fields": [
+      {
+        "owner": "bt",
+        "fieldName": "image",
+        "descriptor": "Ljava/awt/Image;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "bt",
+        "fieldName": "component",
+        "descriptor": "Ljava/awt/Component;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "HashTable",
+    "superClass": "java/lang/Object",
+    "access": 49,
+    "obfuscatedClassName": "tl",
+    "fields": [
+      {
+        "owner": "tl",
+        "fieldName": "head",
+        "descriptor": "Lse;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "tl",
+        "fieldName": "current",
+        "descriptor": "Lse;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "tl",
+        "fieldName": "size",
+        "descriptor": "I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "tl",
+        "fieldName": "buckets",
+        "descriptor": "[Lse;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "tl",
+        "fieldName": "index",
+        "descriptor": "I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "FixedSizeDeque",
+    "superClass": "java/lang/Object",
+    "access": 49,
+    "obfuscatedClassName": "ta",
+    "fields": [
+      {
+        "owner": "ta",
+        "fieldName": "head",
+        "descriptor": "Lse;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "ta",
+        "fieldName": "current",
+        "descriptor": "Lse;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "ta",
+        "fieldName": "size",
+        "descriptor": "I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "ta",
+        "fieldName": "buckets",
+        "descriptor": "[Lse;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "ta",
+        "fieldName": "index",
+        "descriptor": "I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "FixedSizeDequeIterator",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "tj",
+    "fields": [
+      {
+        "owner": "tj",
+        "fieldName": "deque",
+        "descriptor": "Lta;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "tj",
+        "fieldName": "next",
+        "descriptor": "Lse;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "tj",
+        "fieldName": "current",
+        "descriptor": "Lse;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "tj",
+        "fieldName": "size",
+        "descriptor": "I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "NodeList",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "po",
+    "fields": [
+      {
+        "owner": "po",
+        "fieldName": "head",
+        "descriptor": "Lse;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "po",
+        "fieldName": "current",
+        "descriptor": "Lse;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "NodeListIterator",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "pn",
+    "fields": [
+      {
+        "owner": "pn",
+        "fieldName": "next",
+        "descriptor": "Lse;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "pn",
+        "fieldName": "current",
+        "descriptor": "Lse;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "pn",
+        "fieldName": "list",
+        "descriptor": "Lpo;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "DualNode",
+    "superClass": "se",
+    "access": 33,
+    "obfuscatedClassName": "sm",
+    "fields": [
+      {
+        "owner": "sm",
+        "fieldName": "next",
+        "descriptor": "Lsm;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "eu"
+      },
+      {
+        "owner": "sm",
+        "fieldName": "uid",
+        "descriptor": "J",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ex"
+      },
+      {
+        "owner": "sm",
+        "fieldName": "previous",
+        "descriptor": "Lsm;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ec"
+      }
+    ],
+    "methods": [
+      {
+        "owner": "sm",
+        "methodName": "unlink()",
+        "descriptor": "()V",
+        "isStatic": false,
+        "obfuscatedMethodName": "es"
+      }
+    ]
+  },
+  {
+    "className": "Wrapper",
+    "superClass": "sm",
+    "access": 1057,
+    "obfuscatedClassName": "lb",
+    "fields": [
+      {
+        "owner": "lb",
+        "fieldName": "index",
+        "descriptor": "I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "SoftReference",
+    "superClass": "lb",
+    "access": 33,
+    "obfuscatedClassName": "lh",
+    "fields": [
+      {
+        "owner": "lh",
+        "fieldName": "softReference",
+        "descriptor": "Ljava/lang/ref/SoftReference;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "HardReference",
+    "superClass": "lb",
+    "access": 33,
+    "obfuscatedClassName": "lu",
+    "fields": [
+      {
+        "owner": "lu",
+        "fieldName": "hardReference",
+        "descriptor": "Ljava/lang/Object;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "DoublyNode",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "ph",
+    "fields": [
+      {
+        "owner": "ph",
+        "fieldName": "head",
+        "descriptor": "Lsm;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "ph",
+        "fieldName": "current",
+        "descriptor": "Lsm;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "DoublyNodeIterator",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "pq",
+    "fields": [
+      {
+        "owner": "pq",
+        "fieldName": "next",
+        "descriptor": "Lsm;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "pq",
+        "fieldName": "iterableNode",
+        "descriptor": "Lph;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "pq",
+        "fieldName": "current",
+        "descriptor": "Lsm;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "ClientPreferences",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "df",
+    "fields": [
+      {
+        "owner": "df",
+        "fieldName": "loadingAudioDisabled",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      },
+      {
+        "owner": "df",
+        "fieldName": "authTokens",
+        "descriptor": "Ljava/util/Map;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ag"
+      },
+      {
+        "owner": "df",
+        "fieldName": "roofDisabled",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      },
+      {
+        "owner": "df",
+        "fieldName": "brightness",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "as"
+      },
+      {
+        "owner": "df",
+        "fieldName": "rememberedUsername",
+        "descriptor": "Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ax"
+      },
+      {
+        "owner": "df",
+        "fieldName": "displayFps",
+        "descriptor": "I",
+        "decoder": -1287239755,
+        "encoder": -1138381155,
+        "isStatic": false,
+        "obfuscatedFieldName": "an"
+      },
+      {
+        "owner": "df",
+        "fieldName": "musicVolume",
+        "descriptor": "D",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "au"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "RenderableNode",
+    "superClass": "sm",
+    "access": 1057,
+    "obfuscatedClassName": "ky",
+    "fields": [
+      {
+        "owner": "ky",
+        "fieldName": "modelHeight",
+        "descriptor": "I",
+        "decoder": -1921985017,
+        "encoder": -988962088,
+        "isStatic": false,
+        "obfuscatedFieldName": "ey"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Queue",
+    "superClass": "java/lang/Object",
+    "access": 49,
+    "obfuscatedClassName": "pd",
+    "fields": [
+      {
+        "owner": "pd",
+        "fieldName": "entityNode",
+        "descriptor": "Lsm;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Cache",
+    "superClass": "java/lang/Object",
+    "access": 49,
+    "obfuscatedClassName": "ll",
+    "fields": [
+      {
+        "owner": "ll",
+        "fieldName": "fixedSizedDeque",
+        "descriptor": "Lta;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "ll",
+        "fieldName": "nodeComposite",
+        "descriptor": "Lph;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      },
+      {
+        "owner": "ll",
+        "fieldName": "size",
+        "descriptor": "I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "ll",
+        "fieldName": "entityNode",
+        "descriptor": "Lsm;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "ll",
+        "fieldName": "remaining",
+        "descriptor": "I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "InventoryDefinition",
+    "superClass": "sm",
+    "access": 33,
+    "obfuscatedClassName": "gk",
+    "fields": [
+      {
+        "owner": "gk",
+        "fieldName": "capacity",
+        "descriptor": "I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "ISAACCipher",
+    "superClass": "java/lang/Object",
+    "access": 49,
+    "obfuscatedClassName": "vk",
+    "fields": [
+      {
+        "owner": "vk",
+        "fieldName": "memory",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "as"
+      },
+      {
+        "owner": "vk",
+        "fieldName": "last",
+        "descriptor": "I",
+        "decoder": 886983623,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "az"
+      },
+      {
+        "owner": "vk",
+        "fieldName": "count",
+        "descriptor": "I",
+        "decoder": -1012218433,
+        "encoder": 2016034560,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "vk",
+        "fieldName": "accumulator",
+        "descriptor": "I",
+        "decoder": -409789617,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aa"
+      },
+      {
+        "owner": "vk",
+        "fieldName": "counter",
+        "descriptor": "I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ao"
+      },
+      {
+        "owner": "vk",
+        "fieldName": "results",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "PacketBuffer",
+    "superClass": "uq",
+    "access": 33,
+    "obfuscatedClassName": "un",
+    "fields": [
+      {
+        "owner": "un",
+        "fieldName": "cipher",
+        "descriptor": "Lvk;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "un",
+        "fieldName": "bitOffset",
+        "descriptor": "I",
+        "decoder": 915272781,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "OutgoingPacketMeta",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "lt",
+    "fields": [
+      {
+        "owner": "lt",
+        "fieldName": "length",
+        "descriptor": "I",
+        "decoder": -1133857769,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "df"
+      },
+      {
+        "owner": "lt",
+        "fieldName": "id",
+        "descriptor": "I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "de"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "OutgoingPacket",
+    "superClass": "se",
+    "access": 33,
+    "obfuscatedClassName": "mn",
+    "fields": [
+      {
+        "owner": "mn",
+        "fieldName": "size",
+        "descriptor": "I",
+        "decoder": 1384009059,
+        "encoder": 33397835,
+        "isStatic": true,
+        "obfuscatedFieldName": "as"
+      },
+      {
+        "owner": "mn",
+        "fieldName": "meta",
+        "descriptor": "Llt;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "mn",
+        "fieldName": "buffer",
+        "descriptor": "Lun;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "RegionUpdatePacketHeader",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "uu",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "IncomingPacketMeta",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "mj",
+    "fields": [
+      {
+        "owner": "mj",
+        "fieldName": "length",
+        "descriptor": "I",
+        "decoder": 107764519,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ew"
+      },
+      {
+        "owner": "mj",
+        "fieldName": "id",
+        "descriptor": "I",
+        "decoder": 71665533,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "em"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "AsynchronousInputStream",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "ro",
+    "fields": [
+      {
+        "owner": "ro",
+        "fieldName": "exception",
+        "descriptor": "Ljava/io/IOException;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aa"
+      },
+      {
+        "owner": "ro",
+        "fieldName": "size",
+        "descriptor": "I",
+        "decoder": -243319149,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "ro",
+        "fieldName": "offset",
+        "descriptor": "I",
+        "decoder": -343151065,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "as"
+      },
+      {
+        "owner": "ro",
+        "fieldName": "readIndex",
+        "descriptor": "I",
+        "decoder": -343151065,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "as"
+      },
+      {
+        "owner": "ro",
+        "fieldName": "inputStream",
+        "descriptor": "Ljava/io/InputStream;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "ro",
+        "fieldName": "buffer",
+        "descriptor": "[B",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "ro",
+        "fieldName": "thread",
+        "descriptor": "Ljava/lang/Thread;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "AsynchronousOutputStream",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "ri",
+    "fields": [
+      {
+        "owner": "ri",
+        "fieldName": "exception",
+        "descriptor": "Ljava/io/IOException;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aa"
+      },
+      {
+        "owner": "ri",
+        "fieldName": "stopped",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "az"
+      },
+      {
+        "owner": "ri",
+        "fieldName": "size",
+        "descriptor": "I",
+        "decoder": 1682690735,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "ri",
+        "fieldName": "offset",
+        "descriptor": "I",
+        "decoder": 1028221283,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      },
+      {
+        "owner": "ri",
+        "fieldName": "buffer",
+        "descriptor": "[B",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "ri",
+        "fieldName": "outputStream",
+        "descriptor": "Ljava/io/OutputStream;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "ri",
+        "fieldName": "thread",
+        "descriptor": "Ljava/lang/Thread;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "ri",
+        "fieldName": "writeIndex",
+        "descriptor": "I",
+        "decoder": -989749177,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "as"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Socket",
+    "superClass": "rr",
+    "access": 33,
+    "obfuscatedClassName": "rz",
+    "fields": [
+      {
+        "owner": "rz",
+        "fieldName": "size",
+        "descriptor": "Lro;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "rz",
+        "fieldName": "inputStream",
+        "descriptor": "Lro;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "rz",
+        "fieldName": "socket",
+        "descriptor": "Ljava/net/Socket;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "rz",
+        "fieldName": "outputStream",
+        "descriptor": "Lri;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "AbstractSocket",
+    "superClass": "java/lang/Object",
+    "access": 1057,
+    "obfuscatedClassName": "rr",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "PacketWriter",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "ek",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "HttpAuthenticationHeader",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "qn",
+    "fields": [
+      {
+        "owner": "qn",
+        "fieldName": "BEARER",
+        "descriptor": "Lqn;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "qn",
+        "fieldName": "key",
+        "descriptor": "Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "qn",
+        "fieldName": "BASIC",
+        "descriptor": "Lqn;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": [
+      {
+        "owner": "qn",
+        "methodName": "getKey()",
+        "descriptor": "()Ljava/lang/String;",
+        "isStatic": false,
+        "obfuscatedMethodName": "aq"
+      }
+    ]
+  },
+  {
+    "className": "HttpContentType",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "sp",
+    "fields": [
+      {
+        "owner": "sp",
+        "fieldName": "contentType",
+        "descriptor": "Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      }
+    ],
+    "methods": [
+      {
+        "owner": "sp",
+        "methodName": "getValue()",
+        "descriptor": "()Ljava/lang/String;",
+        "isStatic": false,
+        "obfuscatedMethodName": "aq"
+      }
+    ]
+  },
+  {
+    "className": "IHttpPayload",
+    "superClass": "java/lang/Object",
+    "access": 1537,
+    "obfuscatedClassName": "sz",
+    "fields": [],
+    "methods": [
+      {
+        "owner": "sz",
+        "methodName": "getContentType()",
+        "descriptor": "(B)Lsp;",
+        "isStatic": false,
+        "obfuscatedMethodName": "aq"
+      },
+      {
+        "owner": "sz",
+        "methodName": "toBytes()",
+        "descriptor": "(I)[B",
+        "isStatic": false,
+        "obfuscatedMethodName": "aw"
+      }
+    ]
+  },
+  {
+    "className": "HttpMethod",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "au",
+    "fields": [
+      {
+        "owner": "au",
+        "fieldName": "DELETE",
+        "descriptor": "Lau;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "ar"
+      },
+      {
+        "owner": "au",
+        "fieldName": "POST",
+        "descriptor": "Lau;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "au",
+        "fieldName": "GET",
+        "descriptor": "Lau;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "au",
+        "fieldName": "name",
+        "descriptor": "Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aa"
+      },
+      {
+        "owner": "au",
+        "fieldName": "PUT",
+        "descriptor": "Lau;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "au",
+        "fieldName": "PATCH",
+        "descriptor": "Lau;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "ai"
+      }
+    ],
+    "methods": [
+      {
+        "owner": "au",
+        "methodName": "getName()",
+        "descriptor": "()Ljava/lang/String;",
+        "isStatic": false,
+        "obfuscatedMethodName": "as"
+      }
+    ]
+  },
+  {
+    "className": "HttpHeaders",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "qw",
+    "fields": [
+      {
+        "owner": "qw",
+        "fieldName": "headers",
+        "descriptor": "Ljava/util/Map;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "qw",
+        "fieldName": "acceptHeaderValues",
+        "descriptor": "Ljava/util/Map;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      },
+      {
+        "owner": "qw",
+        "fieldName": "decimalFormat",
+        "descriptor": "Ljava/text/DecimalFormat;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "as"
+      }
+    ],
+    "methods": [
+      {
+        "owner": "qw",
+        "methodName": "acceptWithFactor()",
+        "descriptor": "(Lsp;F)V",
+        "isStatic": false,
+        "obfuscatedMethodName": "ak"
+      },
+      {
+        "owner": "qw",
+        "methodName": "setRequestProperties()",
+        "descriptor": "(Ljavax/net/ssl/HttpsURLConnection;)V",
+        "isStatic": false,
+        "obfuscatedMethodName": "aq"
+      },
+      {
+        "owner": "qw",
+        "methodName": "setAuthenticationHeader()",
+        "descriptor": "(Lqn;Ljava/lang/String;)V",
+        "isStatic": false,
+        "obfuscatedMethodName": "ar"
+      },
+      {
+        "owner": "qw",
+        "methodName": "getHeaders()",
+        "descriptor": "()Ljava/util/Map;",
+        "isStatic": false,
+        "obfuscatedMethodName": "aw"
+      },
+      {
+        "owner": "qw",
+        "methodName": "setBearerToken()",
+        "descriptor": "(Ljava/lang/String;)V",
+        "isStatic": false,
+        "obfuscatedMethodName": "aa"
+      },
+      {
+        "owner": "qw",
+        "methodName": "setHeader()",
+        "descriptor": "(Ljava/lang/String;Ljava/lang/String;)V",
+        "isStatic": false,
+        "obfuscatedMethodName": "al"
+      },
+      {
+        "owner": "qw",
+        "methodName": "setBasicAuthentication()",
+        "descriptor": "(Ljava/lang/String;)V",
+        "isStatic": false,
+        "obfuscatedMethodName": "as"
+      },
+      {
+        "owner": "qw",
+        "methodName": "removeContentType()",
+        "descriptor": "()V",
+        "isStatic": false,
+        "obfuscatedMethodName": "ao"
+      },
+      {
+        "owner": "qw",
+        "methodName": "updateAcceptHeader()",
+        "descriptor": "()V",
+        "isStatic": false,
+        "obfuscatedMethodName": "ah"
+      },
+      {
+        "owner": "qw",
+        "methodName": "setContentType()",
+        "descriptor": "(Lsp;)V",
+        "isStatic": false,
+        "obfuscatedMethodName": "az"
+      },
+      {
+        "owner": "qw",
+        "methodName": "removeHeader()",
+        "descriptor": "(Ljava/lang/String;)V",
+        "isStatic": false,
+        "obfuscatedMethodName": "ai"
+      },
+      {
+        "owner": "qw",
+        "methodName": "getAcceptHeaderValue()",
+        "descriptor": "()Ljava/lang/String;",
+        "isStatic": false,
+        "obfuscatedMethodName": "aj"
+      }
+    ]
+  },
+  {
+    "className": "HttpResponse",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "ay",
+    "fields": [
+      {
+        "owner": "ay",
+        "fieldName": "responseBody",
+        "descriptor": "Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "ay",
+        "fieldName": "responseHeaders",
+        "descriptor": "Ljava/util/Map;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "ay",
+        "fieldName": "responseCode",
+        "descriptor": "I",
+        "decoder": -675538159,
+        "encoder": 223627408,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": [
+      {
+        "owner": "ay",
+        "methodName": "getResponseCode()",
+        "descriptor": "()I",
+        "isStatic": false,
+        "obfuscatedMethodName": "aq"
+      },
+      {
+        "owner": "ay",
+        "methodName": "getResponseHeaders()",
+        "descriptor": "()Ljava/util/Map;",
+        "isStatic": false,
+        "obfuscatedMethodName": "aw"
+      },
+      {
+        "owner": "ay",
+        "methodName": "getResponseBody()",
+        "descriptor": "()Ljava/lang/String;",
+        "isStatic": false,
+        "obfuscatedMethodName": "al"
+      }
+    ]
+  },
+  {
+    "className": "AsyncHttpResponse",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "ad",
+    "fields": [
+      {
+        "owner": "ad",
+        "fieldName": "responseFuture",
+        "descriptor": "Ljava/util/concurrent/Future;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "ad",
+        "fieldName": "errorMessage",
+        "descriptor": "Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      }
+    ],
+    "methods": [
+      {
+        "owner": "ad",
+        "methodName": "await()",
+        "descriptor": "()Lay;",
+        "isStatic": false,
+        "obfuscatedMethodName": "ar"
+      },
+      {
+        "owner": "ad",
+        "methodName": "hasError()",
+        "descriptor": "()Z",
+        "isStatic": false,
+        "obfuscatedMethodName": "al"
+      },
+      {
+        "owner": "ad",
+        "methodName": "getErrorMessage()",
+        "descriptor": "()Ljava/lang/String;",
+        "isStatic": false,
+        "obfuscatedMethodName": "aw"
+      },
+      {
+        "owner": "ad",
+        "methodName": "hasFinished()",
+        "descriptor": "()Z",
+        "isStatic": false,
+        "obfuscatedMethodName": "ai"
+      }
+    ]
+  },
+  {
+    "className": "HttpRequest",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "ak",
+    "fields": [
+      {
+        "owner": "ak",
+        "fieldName": "followRedirects",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "as"
+      },
+      {
+        "owner": "ak",
+        "fieldName": "connection",
+        "descriptor": "Ljavax/net/ssl/HttpsURLConnection;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "ak",
+        "fieldName": "httpHeaders",
+        "descriptor": "Lqw;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "ak",
+        "fieldName": "httpMethod",
+        "descriptor": "Lau;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "ak",
+        "fieldName": "httpPayload",
+        "descriptor": "Lsz;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "ak",
+        "fieldName": "requestInitialized",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      },
+      {
+        "owner": "ak",
+        "fieldName": "connectionTimeout",
+        "descriptor": "I",
+        "decoder": 2069293369,
+        "encoder": -2002349344,
+        "isStatic": false,
+        "obfuscatedFieldName": "aa"
+      }
+    ],
+    "methods": [
+      {
+        "owner": "ak",
+        "methodName": "connect()",
+        "descriptor": "()Z",
+        "isStatic": false,
+        "obfuscatedMethodName": "ai"
+      },
+      {
+        "owner": "ak",
+        "methodName": "getHeaders()",
+        "descriptor": "()Lqw;",
+        "isStatic": false,
+        "obfuscatedMethodName": "aq"
+      },
+      {
+        "owner": "ak",
+        "methodName": "initializeRequest()",
+        "descriptor": "()V",
+        "isStatic": false,
+        "obfuscatedMethodName": "al"
+      },
+      {
+        "owner": "ak",
+        "methodName": "setPayload()",
+        "descriptor": "(Lsz;)V",
+        "isStatic": false,
+        "obfuscatedMethodName": "aw"
+      },
+      {
+        "owner": "ak",
+        "methodName": "getResponse()",
+        "descriptor": "()Lay;",
+        "isStatic": false,
+        "obfuscatedMethodName": "ar"
+      }
+    ]
+  },
+  {
+    "className": "AsyncRestClient",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "ax",
+    "fields": [
+      {
+        "owner": "ax",
+        "fieldName": "threadFactory",
+        "descriptor": "Ljava/util/concurrent/ThreadFactory;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "ax",
+        "fieldName": "threadNamePrefix",
+        "descriptor": "Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "ax",
+        "fieldName": "workQueueCapacity",
+        "descriptor": "I",
+        "decoder": 1265131985,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "ax",
+        "fieldName": "threadPoolExecutor",
+        "descriptor": "Ljava/util/concurrent/ThreadPoolExecutor;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      }
+    ],
+    "methods": [
+      {
+        "owner": "ax",
+        "methodName": "submitRequest()",
+        "descriptor": "(Lak;)Lad;",
+        "isStatic": false,
+        "obfuscatedMethodName": "aw"
+      },
+      {
+        "owner": "ax",
+        "methodName": "shutdown()",
+        "descriptor": "()V",
+        "isStatic": false,
+        "obfuscatedMethodName": "al"
+      },
+      {
+        "owner": "ax",
+        "methodName": "createThreadPoolExecutor()",
+        "descriptor": "(I)Ljava/util/concurrent/ThreadPoolExecutor;",
+        "isStatic": false,
+        "obfuscatedMethodName": "aq"
+      }
+    ]
+  },
+  {
+    "className": "IdentityTable",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "vl",
+    "fields": [
+      {
+        "owner": "vl",
+        "fieldName": "ids",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "AbstractArchive",
+    "superClass": "java/lang/Object",
+    "access": 1057,
+    "obfuscatedClassName": "of",
+    "fields": [
+      {
+        "owner": "of",
+        "fieldName": "entryIndexCount",
+        "descriptor": "I",
+        "decoder": -218182883,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "at"
+      },
+      {
+        "owner": "of",
+        "fieldName": "entryIdentifiers",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "av"
+      },
+      {
+        "owner": "of",
+        "fieldName": "encrypted",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bk"
+      },
+      {
+        "owner": "of",
+        "fieldName": "childIdentityTables",
+        "descriptor": "[Lvl;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bd"
+      },
+      {
+        "owner": "of",
+        "fieldName": "entryChildCounts",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ab"
+      },
+      {
+        "owner": "of",
+        "fieldName": "childIndices",
+        "descriptor": "[[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bo"
+      },
+      {
+        "owner": "of",
+        "fieldName": "entryBuffers",
+        "descriptor": "[Ljava/lang/Object;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bi"
+      },
+      {
+        "owner": "of",
+        "fieldName": "childBuffers",
+        "descriptor": "[[Ljava/lang/Object;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bq"
+      },
+      {
+        "owner": "of",
+        "fieldName": "discardingEntryBuffers",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bm"
+      },
+      {
+        "owner": "of",
+        "fieldName": "entryIndices",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ay"
+      },
+      {
+        "owner": "of",
+        "fieldName": "entryIdentityTable",
+        "descriptor": "Lvl;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ac"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Rasterizer2D",
+    "superClass": "sm",
+    "access": 33,
+    "obfuscatedClassName": "uv",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "AbstractRasterizer",
+    "superClass": "uv",
+    "access": 1057,
+    "obfuscatedClassName": "kg",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "Sprite",
+    "superClass": "uv",
+    "access": 49,
+    "obfuscatedClassName": "vd",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "AbstractFont",
+    "superClass": "uv",
+    "access": 1057,
+    "obfuscatedClassName": "qi",
+    "fields": [
+      {
+        "owner": "qi",
+        "fieldName": "pixels",
+        "descriptor": "[B",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ah"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Skeleton",
+    "superClass": "se",
+    "access": 33,
+    "obfuscatedClassName": "ku",
+    "fields": [
+      {
+        "owner": "ku",
+        "fieldName": "count",
+        "descriptor": "I",
+        "decoder": 1093331411,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aa"
+      },
+      {
+        "owner": "ku",
+        "fieldName": "skinList",
+        "descriptor": "[[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ao"
+      },
+      {
+        "owner": "ku",
+        "fieldName": "id",
+        "descriptor": "I",
+        "decoder": -761555779,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "as"
+      },
+      {
+        "owner": "ku",
+        "fieldName": "opcodes",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "az"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Animation",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "kb",
+    "fields": [
+      {
+        "owner": "kb",
+        "fieldName": "skins",
+        "descriptor": "Lku;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Frames",
+    "superClass": "sm",
+    "access": 33,
+    "obfuscatedClassName": "ks",
+    "fields": [
+      {
+        "owner": "ks",
+        "fieldName": "kits",
+        "descriptor": "[Lkb;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Model",
+    "superClass": "ky",
+    "access": 33,
+    "obfuscatedClassName": "kz",
+    "fields": [
+      {
+        "owner": "kz",
+        "fieldName": "verticesY",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "au"
+      },
+      {
+        "owner": "kz",
+        "fieldName": "indicesZ",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "af"
+      },
+      {
+        "owner": "kz",
+        "fieldName": "verticesZ",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ak"
+      },
+      {
+        "owner": "kz",
+        "fieldName": "indicesY",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aj"
+      },
+      {
+        "owner": "kz",
+        "fieldName": "indicesX",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ax"
+      },
+      {
+        "owner": "kz",
+        "fieldName": "verticesX",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ao"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "AppearanceCustomization",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "gj",
+    "fields": [
+      {
+        "owner": "gj",
+        "fieldName": "newColors",
+        "descriptor": "[S",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "gj",
+        "fieldName": "newTextures",
+        "descriptor": "[S",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "AnimationSequence",
+    "superClass": "sm",
+    "access": 33,
+    "obfuscatedClassName": "hs",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "ModelHeader",
+    "superClass": "ky",
+    "access": 33,
+    "obfuscatedClassName": "kf",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "ItemDefinition",
+    "superClass": "sm",
+    "access": 33,
+    "obfuscatedClassName": "hb",
+    "fields": [
+      {
+        "owner": "hb",
+        "fieldName": "stackIds",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bl"
+      },
+      {
+        "owner": "hb",
+        "fieldName": "groundActions",
+        "descriptor": "[Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bm"
+      },
+      {
+        "owner": "hb",
+        "fieldName": "price",
+        "descriptor": "I",
+        "decoder": -847246863,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ax"
+      },
+      {
+        "owner": "hb",
+        "fieldName": "members",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bk"
+      },
+      {
+        "owner": "hb",
+        "fieldName": "inventoryActions",
+        "descriptor": "[Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bw"
+      },
+      {
+        "owner": "hb",
+        "fieldName": "name",
+        "descriptor": "Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "an"
+      },
+      {
+        "owner": "hb",
+        "fieldName": "tradable",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "cx"
+      },
+      {
+        "owner": "hb",
+        "fieldName": "stackAmounts",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bl"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "DefinitionProperty",
+    "superClass": "sm",
+    "access": 33,
+    "obfuscatedClassName": "hp",
+    "fields": [
+      {
+        "owner": "hp",
+        "fieldName": "cache",
+        "descriptor": "Lll;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "hp",
+        "fieldName": "autoDisable",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "as"
+      },
+      {
+        "owner": "hp",
+        "fieldName": "type",
+        "descriptor": "C",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "ObjectDefinition",
+    "superClass": "sm",
+    "access": 33,
+    "obfuscatedClassName": "he",
+    "fields": [
+      {
+        "owner": "he",
+        "fieldName": "name",
+        "descriptor": "Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aj"
+      },
+      {
+        "owner": "he",
+        "fieldName": "actions",
+        "descriptor": "[Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bi"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "NpcDefinition",
+    "superClass": "sm",
+    "access": 33,
+    "obfuscatedClassName": "ho",
+    "fields": [
+      {
+        "owner": "ho",
+        "fieldName": "modelIds",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ao"
+      },
+      {
+        "owner": "ho",
+        "fieldName": "name",
+        "descriptor": "Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aa"
+      },
+      {
+        "owner": "ho",
+        "fieldName": "id",
+        "descriptor": "I",
+        "decoder": 1649526313,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "as"
+      },
+      {
+        "owner": "ho",
+        "fieldName": "combatLevel",
+        "descriptor": "I",
+        "decoder": -1490701553,
+        "encoder": 1839146001,
+        "isStatic": false,
+        "obfuscatedFieldName": "ba"
+      },
+      {
+        "owner": "ho",
+        "fieldName": "actions",
+        "descriptor": "[Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bi"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "FloorUnderlayDefinition",
+    "superClass": "sm",
+    "access": 33,
+    "obfuscatedClassName": "hr",
+    "fields": [
+      {
+        "owner": "hr",
+        "fieldName": "rgbColor",
+        "descriptor": "I",
+        "decoder": 1608387249,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "hr",
+        "fieldName": "cache",
+        "descriptor": "Lll;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "aw"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "SpotAnim",
+    "superClass": "sm",
+    "access": 33,
+    "obfuscatedClassName": "hn",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "PlayerDefinition",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "nt",
+    "fields": [
+      {
+        "owner": "nt",
+        "fieldName": "equipment",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "nt",
+        "fieldName": "female",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "au"
+      },
+      {
+        "owner": "nt",
+        "fieldName": "hash",
+        "descriptor": "J",
+        "decoder": 418701774932304743,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aa"
+      }
+    ],
+    "methods": [
+      {
+        "owner": "nt",
+        "methodName": "getModelHeader()",
+        "descriptor": "()Lkf;",
+        "isStatic": false,
+        "obfuscatedMethodName": "ak"
+      }
+    ]
+  },
+  {
+    "className": "IndexedImage",
+    "superClass": "uv",
+    "access": 49,
+    "obfuscatedClassName": "vg",
+    "fields": [
+      {
+        "owner": "vg",
+        "fieldName": "pixels",
+        "descriptor": "[B",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "RuneScript",
+    "superClass": "sm",
+    "access": 33,
+    "obfuscatedClassName": "dc",
+    "fields": [
+      {
+        "owner": "dc",
+        "fieldName": "switches",
+        "descriptor": "[Lta;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "au"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "AccessFile",
+    "superClass": "java/lang/Object",
+    "access": 49,
+    "obfuscatedClassName": "tf",
+    "fields": [
+      {
+        "owner": "tf",
+        "fieldName": "file",
+        "descriptor": "Ljava/io/RandomAccessFile;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "tf",
+        "fieldName": "position",
+        "descriptor": "J",
+        "decoder": 8681587200327058877,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "AccessFileHandler",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "tm",
+    "fields": [
+      {
+        "owner": "tm",
+        "fieldName": "accessFile",
+        "descriptor": "Ltf;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "ArchiveDisk",
+    "superClass": "java/lang/Object",
+    "access": 49,
+    "obfuscatedClassName": "rl",
+    "fields": [
+      {
+        "owner": "rl",
+        "fieldName": "indexFile",
+        "descriptor": "Ltm;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "rl",
+        "fieldName": "dataFile",
+        "descriptor": "Ltm;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Archive",
+    "superClass": "of",
+    "access": 33,
+    "obfuscatedClassName": "om",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "FileSystemRequest",
+    "superClass": "se",
+    "access": 33,
+    "obfuscatedClassName": "oh",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "ClassInfo",
+    "superClass": "se",
+    "access": 33,
+    "obfuscatedClassName": "by",
+    "fields": [
+      {
+        "owner": "by",
+        "fieldName": "methods",
+        "descriptor": "[Ljava/lang/reflect/Method;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aa"
+      },
+      {
+        "owner": "by",
+        "fieldName": "fields",
+        "descriptor": "[Ljava/lang/reflect/Field;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Username",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "vn",
+    "fields": [
+      {
+        "owner": "vn",
+        "fieldName": "formattedName",
+        "descriptor": "Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "vn",
+        "fieldName": "name",
+        "descriptor": "Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Nameable",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "ra",
+    "fields": [
+      {
+        "owner": "ra",
+        "fieldName": "previousName",
+        "descriptor": "Lvn;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "ra",
+        "fieldName": "name",
+        "descriptor": "Lvn;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "PlayerType",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "oo",
+    "fields": [
+      {
+        "owner": "oo",
+        "fieldName": "chatBadgeId",
+        "descriptor": "I",
+        "decoder": 1041281843,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ad"
+      },
+      {
+        "owner": "oo",
+        "fieldName": "moderator",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ay"
+      },
+      {
+        "owner": "oo",
+        "fieldName": "tradable",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "at"
+      },
+      {
+        "owner": "oo",
+        "fieldName": "id",
+        "descriptor": "I",
+        "decoder": -1017500747,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "am"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "AbstractRawAudioNode",
+    "superClass": "se",
+    "access": 1057,
+    "obfuscatedClassName": "cx",
+    "fields": [
+      {
+        "owner": "cx",
+        "fieldName": "id",
+        "descriptor": "I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "as"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Resampler",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "cn",
+    "fields": [
+      {
+        "owner": "cn",
+        "fieldName": "resampleTable",
+        "descriptor": "[[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "as"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "RawAudioNode",
+    "superClass": "cx",
+    "access": 33,
+    "obfuscatedClassName": "br",
+    "fields": [
+      {
+        "owner": "br",
+        "fieldName": "buffer",
+        "descriptor": "[B",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "TileItem",
+    "superClass": "ky",
+    "access": 49,
+    "obfuscatedClassName": "ej",
+    "fields": [
+      {
+        "owner": "ej",
+        "fieldName": "flag",
+        "descriptor": "I",
+        "decoder": -63855207,
+        "encoder": 1996748407,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "ej",
+        "fieldName": "quantity",
+        "descriptor": "I",
+        "decoder": 1152551687,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "ej",
+        "fieldName": "id",
+        "descriptor": "I",
+        "decoder": 418956957,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "DynamicObject",
+    "superClass": "ky",
+    "access": 33,
+    "obfuscatedClassName": "do",
+    "fields": [
+      {
+        "owner": "do",
+        "fieldName": "animationSequence",
+        "descriptor": "Lhs;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aa"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Projectile",
+    "superClass": "ky",
+    "access": 49,
+    "obfuscatedClassName": "cr",
+    "fields": [
+      {
+        "owner": "cr",
+        "fieldName": "plane",
+        "descriptor": "I",
+        "decoder": 1339285629,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "cr",
+        "fieldName": "sourceX",
+        "descriptor": "I",
+        "decoder": 1488219019,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "cr",
+        "fieldName": "sourceY",
+        "descriptor": "I",
+        "decoder": 1783553383,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "cr",
+        "fieldName": "cycleEnd",
+        "descriptor": "I",
+        "decoder": -1089229095,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ak"
+      },
+      {
+        "owner": "cr",
+        "fieldName": "sourceZ",
+        "descriptor": "I",
+        "decoder": 791763453,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      },
+      {
+        "owner": "cr",
+        "fieldName": "speedZ",
+        "descriptor": "D",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ac"
+      },
+      {
+        "owner": "cr",
+        "fieldName": "speedY",
+        "descriptor": "D",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ay"
+      },
+      {
+        "owner": "cr",
+        "fieldName": "projectileComposite",
+        "descriptor": "Lhs;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bu"
+      },
+      {
+        "owner": "cr",
+        "fieldName": "targetIndex",
+        "descriptor": "I",
+        "decoder": -103533343,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ax"
+      },
+      {
+        "owner": "cr",
+        "fieldName": "speedX",
+        "descriptor": "D",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "at"
+      },
+      {
+        "owner": "cr",
+        "fieldName": "cycleStart",
+        "descriptor": "I",
+        "decoder": 897375107,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "au"
+      },
+      {
+        "owner": "cr",
+        "fieldName": "slope",
+        "descriptor": "I",
+        "decoder": -20042567,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ah"
+      },
+      {
+        "owner": "cr",
+        "fieldName": "frameCycle",
+        "descriptor": "I",
+        "decoder": -263190565,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bd"
+      },
+      {
+        "owner": "cr",
+        "fieldName": "startHeight",
+        "descriptor": "I",
+        "decoder": -130381619,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aj"
+      },
+      {
+        "owner": "cr",
+        "fieldName": "endHeight",
+        "descriptor": "I",
+        "decoder": 1909972809,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "as"
+      },
+      {
+        "owner": "cr",
+        "fieldName": "x",
+        "descriptor": "D",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ag"
+      },
+      {
+        "owner": "cr",
+        "fieldName": "y",
+        "descriptor": "D",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "am"
+      },
+      {
+        "owner": "cr",
+        "fieldName": "z",
+        "descriptor": "D",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ad"
+      },
+      {
+        "owner": "cr",
+        "fieldName": "id",
+        "descriptor": "I",
+        "decoder": 1340568521,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "cr",
+        "fieldName": "moving",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "an"
+      },
+      {
+        "owner": "cr",
+        "fieldName": "frame",
+        "descriptor": "I",
+        "decoder": -1382456271,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bo"
+      }
+    ],
+    "methods": [
+      {
+        "owner": "cr",
+        "methodName": "getModel()",
+        "descriptor": "()Lkz;",
+        "isStatic": false,
+        "obfuscatedMethodName": "aw"
+      }
+    ]
+  },
+  {
+    "className": "Varbit",
+    "superClass": "sm",
+    "access": 33,
+    "obfuscatedClassName": "hc",
+    "fields": [
+      {
+        "owner": "hc",
+        "fieldName": "cache",
+        "descriptor": "Lll;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "hc",
+        "fieldName": "configId",
+        "descriptor": "I",
+        "decoder": -781395907,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "VarPlayerType",
+    "superClass": "sm",
+    "access": 33,
+    "obfuscatedClassName": "gk",
+    "fields": [
+      {
+        "owner": "gk",
+        "fieldName": "control",
+        "descriptor": "I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Task",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "ii",
+    "fields": [
+      {
+        "owner": "ii",
+        "fieldName": "task",
+        "descriptor": "Lii;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "ii",
+        "fieldName": "value",
+        "descriptor": "Ljava/lang/Object;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "az"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Signlink",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "ig",
+    "fields": [
+      {
+        "owner": "ig",
+        "fieldName": "thread",
+        "descriptor": "Ljava/lang/Thread;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Deque",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "pr",
+    "fields": [
+      {
+        "owner": "pr",
+        "fieldName": "head",
+        "descriptor": "Lse;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "pr",
+        "fieldName": "current",
+        "descriptor": "Lse;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "MouseTracker",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "dq",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "CollisionMap",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "iz",
+    "fields": [
+      {
+        "owner": "iz",
+        "fieldName": "flags",
+        "descriptor": "[[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "by"
+      },
+      {
+        "owner": "iz",
+        "fieldName": "width",
+        "descriptor": "I",
+        "decoder": 2147461673,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bw"
+      },
+      {
+        "owner": "iz",
+        "fieldName": "height",
+        "descriptor": "I",
+        "decoder": -1249642927,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bv"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "AudioEnvelope",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "bg",
+    "fields": [
+      {
+        "owner": "bg",
+        "fieldName": "durations",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "SoundFilter",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "cz",
+    "fields": [
+      {
+        "owner": "cz",
+        "fieldName": "pairs",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "AudioInstrument",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "cm",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "AudioEffect",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "bn",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "MovementType",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "ip",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "Actor",
+    "superClass": "ky",
+    "access": 1057,
+    "obfuscatedClassName": "dz",
+    "fields": [
+      {
+        "owner": "dz",
+        "fieldName": "defaultHeight",
+        "descriptor": "I",
+        "decoder": -825642877,
+        "encoder": 1251447192,
+        "isStatic": false,
+        "obfuscatedFieldName": "dh"
+      },
+      {
+        "owner": "dz",
+        "fieldName": "interacting",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "cv"
+      },
+      {
+        "owner": "dz",
+        "fieldName": "hitsplatTypes",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "cl"
+      },
+      {
+        "owner": "dz",
+        "fieldName": "pathX",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "dn"
+      },
+      {
+        "owner": "dz",
+        "fieldName": "movementTypes",
+        "descriptor": "[Lip;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ea"
+      },
+      {
+        "owner": "dz",
+        "fieldName": "message",
+        "descriptor": "Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bx"
+      },
+      {
+        "owner": "dz",
+        "fieldName": "pathY",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "dr"
+      },
+      {
+        "owner": "dz",
+        "fieldName": "nodeList",
+        "descriptor": "Lpo;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "cu"
+      },
+      {
+        "owner": "dz",
+        "fieldName": "animating",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "an"
+      },
+      {
+        "owner": "dz",
+        "fieldName": "hitsplatDamage",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "cm"
+      },
+      {
+        "owner": "dz",
+        "fieldName": "hitsplatCycles",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "cx"
+      },
+      {
+        "owner": "dz",
+        "fieldName": "pathLength",
+        "descriptor": "I",
+        "decoder": 614875555,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "dx"
+      },
+      {
+        "owner": "dz",
+        "fieldName": "x",
+        "descriptor": "I",
+        "decoder": -1682415597,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ba"
+      },
+      {
+        "owner": "dz",
+        "fieldName": "y",
+        "descriptor": "I",
+        "decoder": 261390341,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bt"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Npc",
+    "superClass": "dz",
+    "access": 49,
+    "obfuscatedClassName": "dx",
+    "fields": [
+      {
+        "owner": "dx",
+        "fieldName": "definition",
+        "descriptor": "Lho;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "ChatSetting",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "rm",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "Player",
+    "superClass": "dz",
+    "access": 49,
+    "obfuscatedClassName": "dj",
+    "fields": [
+      {
+        "owner": "dj",
+        "fieldName": "overheadIcon",
+        "descriptor": "I",
+        "decoder": 1824775655,
+        "encoder": 1546132009,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "dj",
+        "fieldName": "plane",
+        "descriptor": "I",
+        "decoder": -689360121,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ab"
+      },
+      {
+        "owner": "dj",
+        "fieldName": "skullIcon",
+        "descriptor": "I",
+        "decoder": 220135685,
+        "encoder": -2102305741,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "dj",
+        "fieldName": "totalLevel",
+        "descriptor": "I",
+        "decoder": -155352863,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "az"
+      },
+      {
+        "owner": "dj",
+        "fieldName": "hidden",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ac"
+      },
+      {
+        "owner": "dj",
+        "fieldName": "playerDefinition",
+        "descriptor": "Lnt;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "dj",
+        "fieldName": "model",
+        "descriptor": "Lkz;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ax"
+      },
+      {
+        "owner": "dj",
+        "fieldName": "team",
+        "descriptor": "I",
+        "decoder": -694155901,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ae"
+      },
+      {
+        "owner": "dj",
+        "fieldName": "combatLevel",
+        "descriptor": "I",
+        "decoder": 390481241,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aa"
+      },
+      {
+        "owner": "dj",
+        "fieldName": "actions",
+        "descriptor": "[Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "as"
+      },
+      {
+        "owner": "dj",
+        "fieldName": "username",
+        "descriptor": "Lvn;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "MenuRowContext",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "cb",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "AttackOptionSetting",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "mf",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "GrandExchangeOffer",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "oa",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "MouseHandler",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "bw",
+    "fields": [
+      {
+        "owner": "bw",
+        "fieldName": "lastButton",
+        "descriptor": "I",
+        "decoder": 2083520287,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "am"
+      },
+      {
+        "owner": "bw",
+        "fieldName": "instance",
+        "descriptor": "Lbw;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "bw",
+        "fieldName": "lastPressedXVolatile",
+        "descriptor": "I",
+        "decoder": 1,
+        "encoder": 1769431913,
+        "isStatic": true,
+        "obfuscatedFieldName": "ax"
+      },
+      {
+        "owner": "bw",
+        "fieldName": "lastPressedTimeMillisVolatile",
+        "descriptor": "J",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "ag"
+      },
+      {
+        "owner": "bw",
+        "fieldName": "lastMovedVolatile",
+        "descriptor": "J",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "ao"
+      },
+      {
+        "owner": "bw",
+        "fieldName": "currentButton",
+        "descriptor": "I",
+        "decoder": 61069071,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "au"
+      },
+      {
+        "owner": "bw",
+        "fieldName": "lastPressedY",
+        "descriptor": "I",
+        "decoder": -1283827139,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "at"
+      },
+      {
+        "owner": "bw",
+        "fieldName": "lastPressedX",
+        "descriptor": "I",
+        "decoder": 242924413,
+        "encoder": 242924413,
+        "isStatic": true,
+        "obfuscatedFieldName": "ad"
+      },
+      {
+        "owner": "bw",
+        "fieldName": "xVolatile",
+        "descriptor": "I",
+        "decoder": 1,
+        "encoder": -1090259813,
+        "isStatic": true,
+        "obfuscatedFieldName": "aa"
+      },
+      {
+        "owner": "bw",
+        "fieldName": "currentButtonVolatile",
+        "descriptor": "I",
+        "decoder": -1861536831,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "as"
+      },
+      {
+        "owner": "bw",
+        "fieldName": "x",
+        "descriptor": "I",
+        "decoder": 1745816793,
+        "encoder": 1745816793,
+        "isStatic": true,
+        "obfuscatedFieldName": "ak"
+      },
+      {
+        "owner": "bw",
+        "fieldName": "lastButtonVolatile",
+        "descriptor": "I",
+        "decoder": -929716517,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "af"
+      },
+      {
+        "owner": "bw",
+        "fieldName": "lastPressedYVolatile",
+        "descriptor": "I",
+        "decoder": 1,
+        "encoder": 2101154431,
+        "isStatic": true,
+        "obfuscatedFieldName": "an"
+      },
+      {
+        "owner": "bw",
+        "fieldName": "y",
+        "descriptor": "I",
+        "decoder": -1780921337,
+        "encoder": -1780921337,
+        "isStatic": true,
+        "obfuscatedFieldName": "ah"
+      },
+      {
+        "owner": "bw",
+        "fieldName": "idleCycles",
+        "descriptor": "I",
+        "decoder": 1,
+        "encoder": -2058488119,
+        "isStatic": true,
+        "obfuscatedFieldName": "ar"
+      },
+      {
+        "owner": "bw",
+        "fieldName": "yVolatile",
+        "descriptor": "I",
+        "decoder": 1,
+        "encoder": 1191226161,
+        "isStatic": true,
+        "obfuscatedFieldName": "az"
+      },
+      {
+        "owner": "bw",
+        "fieldName": "millis",
+        "descriptor": "J",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "aj"
+      },
+      {
+        "owner": "bw",
+        "fieldName": "lastPressedTimeMillis",
+        "descriptor": "J",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "ay"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "MouseWheelListener",
+    "superClass": "java/lang/Object",
+    "access": 49,
+    "obfuscatedClassName": "ae",
+    "fields": [
+      {
+        "owner": "ae",
+        "fieldName": "rotation",
+        "descriptor": "I",
+        "decoder": 1176667043,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "IKeyInputData",
+    "superClass": "java/lang/Object",
+    "access": 1537,
+    "obfuscatedClassName": "bi",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "KeyboardListener",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "ap",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "KeyInputHandler",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "iw",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "TileModel",
+    "superClass": "java/lang/Object",
+    "access": 49,
+    "obfuscatedClassName": "kh",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "TilePaint",
+    "superClass": "java/lang/Object",
+    "access": 49,
+    "obfuscatedClassName": "lk",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "LoginType",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "te",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "ItemLayer",
+    "superClass": "java/lang/Object",
+    "access": 49,
+    "obfuscatedClassName": "ka",
+    "fields": [
+      {
+        "owner": "ka",
+        "fieldName": "third",
+        "descriptor": "Lky;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "as"
+      },
+      {
+        "owner": "ka",
+        "fieldName": "tag",
+        "descriptor": "J",
+        "decoder": 6282540839477725861,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aa"
+      },
+      {
+        "owner": "ka",
+        "fieldName": "first",
+        "descriptor": "Lky;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "ka",
+        "fieldName": "second",
+        "descriptor": "Lky;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      },
+      {
+        "owner": "ka",
+        "fieldName": "height",
+        "descriptor": "I",
+        "decoder": 116812191,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "az"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "BoundaryObject",
+    "superClass": "java/lang/Object",
+    "access": 49,
+    "obfuscatedClassName": "lf",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "GameObject",
+    "superClass": "java/lang/Object",
+    "access": 49,
+    "obfuscatedClassName": "la",
+    "fields": [
+      {
+        "owner": "la",
+        "fieldName": "plane",
+        "descriptor": "I",
+        "decoder": -1797510003,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "la",
+        "fieldName": "endY",
+        "descriptor": "I",
+        "decoder": 1776545777,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "au"
+      },
+      {
+        "owner": "la",
+        "fieldName": "centerY",
+        "descriptor": "I",
+        "decoder": 990255065,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "la",
+        "fieldName": "endX",
+        "descriptor": "I",
+        "decoder": 1972009079,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "az"
+      },
+      {
+        "owner": "la",
+        "fieldName": "renderableNode",
+        "descriptor": "Lky;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      },
+      {
+        "owner": "la",
+        "fieldName": "centerX",
+        "descriptor": "I",
+        "decoder": -1307458835,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "la",
+        "fieldName": "modelOrientation",
+        "descriptor": "I",
+        "decoder": 733062771,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "as"
+      },
+      {
+        "owner": "la",
+        "fieldName": "flags",
+        "descriptor": "I",
+        "decoder": 613582333,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "af"
+      },
+      {
+        "owner": "la",
+        "fieldName": "z",
+        "descriptor": "I",
+        "decoder": 2122061283,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "la",
+        "fieldName": "startY",
+        "descriptor": "I",
+        "decoder": -1144008403,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ao"
+      },
+      {
+        "owner": "la",
+        "fieldName": "tag",
+        "descriptor": "J",
+        "decoder": -1053012787197118801,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aj"
+      },
+      {
+        "owner": "la",
+        "fieldName": "startX",
+        "descriptor": "I",
+        "decoder": -2090331591,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aa"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "AnimableObject",
+    "superClass": "ky",
+    "access": 49,
+    "obfuscatedClassName": "cp",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "WallDecoration",
+    "superClass": "java/lang/Object",
+    "access": 49,
+    "obfuscatedClassName": "lc",
+    "fields": [
+      {
+        "owner": "lc",
+        "fieldName": "renderable",
+        "descriptor": "Lky;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ao"
+      },
+      {
+        "owner": "lc",
+        "fieldName": "renderable2",
+        "descriptor": "Lky;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "az"
+      },
+      {
+        "owner": "lc",
+        "fieldName": "renderInfo",
+        "descriptor": "I",
+        "decoder": 147237553,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ak"
+      },
+      {
+        "owner": "lc",
+        "fieldName": "hash",
+        "descriptor": "J",
+        "decoder": 705769494631973791,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "au"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "FloorDecoration",
+    "superClass": "java/lang/Object",
+    "access": 49,
+    "obfuscatedClassName": "kj",
+    "fields": [
+      {
+        "owner": "kj",
+        "fieldName": "renderable",
+        "descriptor": "Lky;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "kj",
+        "fieldName": "hash",
+        "descriptor": "J",
+        "decoder": -3151258421166268253,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Tile",
+    "superClass": "se",
+    "access": 49,
+    "obfuscatedClassName": "kw",
+    "fields": [
+      {
+        "owner": "kw",
+        "fieldName": "plane",
+        "descriptor": "I",
+        "decoder": -1250509033,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "kw",
+        "fieldName": "boundaryObject",
+        "descriptor": "Llf;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aa"
+      },
+      {
+        "owner": "kw",
+        "fieldName": "renderLevel",
+        "descriptor": "I",
+        "decoder": -1884419007,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ak"
+      },
+      {
+        "owner": "kw",
+        "fieldName": "entityFlags",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aj"
+      },
+      {
+        "owner": "kw",
+        "fieldName": "wallDecoration",
+        "descriptor": "Llc;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "az"
+      },
+      {
+        "owner": "kw",
+        "fieldName": "itemLayer",
+        "descriptor": "Lka;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "au"
+      },
+      {
+        "owner": "kw",
+        "fieldName": "tileModel",
+        "descriptor": "Lkh;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "as"
+      },
+      {
+        "owner": "kw",
+        "fieldName": "originalPlane",
+        "descriptor": "I",
+        "decoder": -1006789137,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "kw",
+        "fieldName": "floorDecoration",
+        "descriptor": "Lkj;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ao"
+      },
+      {
+        "owner": "kw",
+        "fieldName": "tile",
+        "descriptor": "Lkw;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ac"
+      },
+      {
+        "owner": "kw",
+        "fieldName": "x",
+        "descriptor": "I",
+        "decoder": -714916873,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "kw",
+        "fieldName": "y",
+        "descriptor": "I",
+        "decoder": -961502115,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "kw",
+        "fieldName": "gameObjects",
+        "descriptor": "[Lla;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ah"
+      },
+      {
+        "owner": "kw",
+        "fieldName": "tilePaint",
+        "descriptor": "Llk;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Scene",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "kq",
+    "fields": [
+      {
+        "owner": "kq",
+        "fieldName": "tiles",
+        "descriptor": "[[[Lkw;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "as"
+      },
+      {
+        "owner": "kq",
+        "fieldName": "interactableObjects",
+        "descriptor": "[Lla;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ao"
+      },
+      {
+        "owner": "kq",
+        "fieldName": "tileHeights",
+        "descriptor": "[[[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "PendingSpawn",
+    "superClass": "se",
+    "access": 49,
+    "obfuscatedClassName": "dy",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "WidgetNode",
+    "superClass": "se",
+    "access": 33,
+    "obfuscatedClassName": "dm",
+    "fields": [
+      {
+        "owner": "dm",
+        "fieldName": "root",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "ChatboxMessage",
+    "superClass": "sm",
+    "access": 33,
+    "obfuscatedClassName": "cy",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "ChatboxChannel",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "dv",
+    "fields": [
+      {
+        "owner": "dv",
+        "fieldName": "count",
+        "descriptor": "I",
+        "decoder": 1578030201,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "dv",
+        "fieldName": "messages",
+        "descriptor": "[Lcy;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      }
+    ],
+    "methods": [
+      {
+        "owner": "dv",
+        "methodName": "addMessage()",
+        "descriptor": "(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcy;",
+        "isStatic": false,
+        "obfuscatedMethodName": "aq"
+      },
+      {
+        "owner": "dv",
+        "methodName": "getMessage()",
+        "descriptor": "(I)Lcy;",
+        "isStatic": false,
+        "obfuscatedMethodName": "aw"
+      },
+      {
+        "owner": "dv",
+        "methodName": "size()",
+        "descriptor": "()I",
+        "isStatic": false,
+        "obfuscatedMethodName": "al"
+      }
+    ]
+  },
+  {
+    "className": "ClanChannelMember",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "fe",
+    "fields": [
+      {
+        "owner": "fe",
+        "fieldName": "world",
+        "descriptor": "I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "fe",
+        "fieldName": "rank",
+        "descriptor": "B",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "fe",
+        "fieldName": "username",
+        "descriptor": "Lvn;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "ClanChannel",
+    "superClass": "se",
+    "access": 33,
+    "obfuscatedClassName": "gg",
+    "fields": [
+      {
+        "owner": "gg",
+        "fieldName": "sortedMemberIds",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "gg",
+        "fieldName": "members",
+        "descriptor": "Ljava/util/List;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "gg",
+        "fieldName": "name",
+        "descriptor": "Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "as"
+      }
+    ],
+    "methods": [
+      {
+        "owner": "gg",
+        "methodName": "removeMember",
+        "descriptor": "(I)V",
+        "isStatic": false,
+        "obfuscatedMethodName": "al"
+      },
+      {
+        "owner": "gg",
+        "methodName": "addMember",
+        "descriptor": "(Lfe;)V",
+        "isStatic": false,
+        "obfuscatedMethodName": "aw"
+      },
+      {
+        "owner": "gg",
+        "methodName": "getSortedMemberIds",
+        "descriptor": "()[I",
+        "isStatic": false,
+        "obfuscatedMethodName": "aq"
+      }
+    ]
+  },
+  {
+    "className": "BufferedImage",
+    "superClass": "sm",
+    "access": 33,
+    "obfuscatedClassName": "mc",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "Widget",
+    "superClass": "se",
+    "access": 33,
+    "obfuscatedClassName": "ng",
+    "fields": [
+      {
+        "owner": "ng",
+        "fieldName": "parent",
+        "descriptor": "Lng;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "eb"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "rawHeight",
+        "descriptor": "I",
+        "decoder": -1667328247,
+        "encoder": -1480710343,
+        "isStatic": false,
+        "obfuscatedFieldName": "bv"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "transparencyBottom",
+        "descriptor": "I",
+        "decoder": 1928836609,
+        "encoder": 711739905,
+        "isStatic": false,
+        "obfuscatedFieldName": "cl"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "modelFrameCycle",
+        "descriptor": "I",
+        "decoder": -2111617423,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "gr"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "rawY",
+        "descriptor": "I",
+        "decoder": -1667328247,
+        "encoder": -1480710343,
+        "isStatic": false,
+        "obfuscatedFieldName": "bv"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "rawX",
+        "descriptor": "I",
+        "decoder": -1667328247,
+        "encoder": -1480710343,
+        "isStatic": false,
+        "obfuscatedFieldName": "bv"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "modelId",
+        "descriptor": "I",
+        "decoder": 888768295,
+        "encoder": -1657702249,
+        "isStatic": false,
+        "obfuscatedFieldName": "cc"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "textYAlignment",
+        "descriptor": "I",
+        "decoder": 745676467,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "dy"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "scrollHeight",
+        "descriptor": "I",
+        "decoder": 2008959905,
+        "encoder": -584689567,
+        "isStatic": false,
+        "obfuscatedFieldName": "cs"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "listener",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ep"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "rootIndex",
+        "descriptor": "I",
+        "decoder": -54820285,
+        "encoder": -1980193387,
+        "isStatic": false,
+        "obfuscatedFieldName": "gi"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "sequenceId",
+        "descriptor": "I",
+        "decoder": -2076594045,
+        "encoder": -132128299,
+        "isStatic": false,
+        "obfuscatedFieldName": "cf"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "color2",
+        "descriptor": "I",
+        "decoder": 1577261457,
+        "encoder": 1252181873,
+        "isStatic": false,
+        "obfuscatedFieldName": "co"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "fontId",
+        "descriptor": "I",
+        "decoder": -1100838897,
+        "encoder": -2120443631,
+        "isStatic": false,
+        "obfuscatedFieldName": "dd"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "children",
+        "descriptor": "[Lng;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "gj"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "modelId2",
+        "descriptor": "I",
+        "decoder": 1559029475,
+        "encoder": 1861120309,
+        "isStatic": false,
+        "obfuscatedFieldName": "cq"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "prioritizeMenuEntry",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "hg"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "mouseOverColor",
+        "descriptor": "I",
+        "decoder": -156786775,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "cd"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "id",
+        "descriptor": "I",
+        "decoder": -917460645,
+        "encoder": -403660499,
+        "isStatic": false,
+        "obfuscatedFieldName": "bo"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "childIndex",
+        "descriptor": "I",
+        "decoder": -1764737119,
+        "encoder": -756900961,
+        "isStatic": false,
+        "obfuscatedFieldName": "bd"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "text",
+        "descriptor": "Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "dh"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "contentType",
+        "descriptor": "I",
+        "decoder": 679311073,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bt"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "mouseOverColor2",
+        "descriptor": "I",
+        "decoder": 250967983,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "cg"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "height",
+        "descriptor": "I",
+        "decoder": -1667328247,
+        "encoder": -1480710343,
+        "isStatic": false,
+        "obfuscatedFieldName": "bv"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "dragZoneSize",
+        "descriptor": "I",
+        "decoder": 698813995,
+        "encoder": 7028867,
+        "isStatic": false,
+        "obfuscatedFieldName": "ev"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "buttonText",
+        "descriptor": "Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ge"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "spriteId",
+        "descriptor": "I",
+        "decoder": 169543047,
+        "encoder": 1179359499,
+        "isStatic": false,
+        "obfuscatedFieldName": "cy"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "spriteAngle",
+        "descriptor": "I",
+        "decoder": 1383023963,
+        "encoder": 1690788563,
+        "isStatic": false,
+        "obfuscatedFieldName": "ce"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "modelType",
+        "descriptor": "I",
+        "decoder": -1247373077,
+        "encoder": 1081823171,
+        "isStatic": false,
+        "obfuscatedFieldName": "cp"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "fill",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "cn"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "transparencyTop",
+        "descriptor": "I",
+        "decoder": 1725480751,
+        "encoder": -488183857,
+        "isStatic": false,
+        "obfuscatedFieldName": "ci"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "itemId",
+        "descriptor": "I",
+        "decoder": 826933799,
+        "encoder": 2037035625,
+        "isStatic": false,
+        "obfuscatedFieldName": "gl"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "modelZoom",
+        "descriptor": "I",
+        "decoder": -149088277,
+        "encoder": -213210068,
+        "isStatic": false,
+        "obfuscatedFieldName": "dk"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "itemQuantityMode",
+        "descriptor": "I",
+        "decoder": -1167605597,
+        "encoder": -1567558901,
+        "isStatic": false,
+        "obfuscatedFieldName": "dq"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "noClickThrough",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "gc"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "text2",
+        "descriptor": "Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "dj"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "actions",
+        "descriptor": "[Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "eg"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "widthAlignment",
+        "descriptor": "I",
+        "decoder": -62312661,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bw"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "spriteTiling",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "cv"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "hidden",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bs"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "color",
+        "descriptor": "I",
+        "decoder": 1900478447,
+        "encoder": -1314386161,
+        "isStatic": false,
+        "obfuscatedFieldName": "ch"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "dragThreshold",
+        "descriptor": "I",
+        "decoder": 900307939,
+        "encoder": -209944117,
+        "isStatic": false,
+        "obfuscatedFieldName": "ef"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "flags",
+        "descriptor": "I",
+        "decoder": 962213457,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "dr"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "spriteShadow",
+        "descriptor": "I",
+        "decoder": 1074151339,
+        "encoder": 1112195843,
+        "isStatic": false,
+        "obfuscatedFieldName": "ct"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "cycle",
+        "descriptor": "I",
+        "decoder": 613707513,
+        "encoder": -125527607,
+        "isStatic": false,
+        "obfuscatedFieldName": "gv"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "fillMode",
+        "descriptor": "Luy;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "cz"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "lineWidth",
+        "descriptor": "I",
+        "decoder": -1508698367,
+        "encoder": 1056827649,
+        "isStatic": false,
+        "obfuscatedFieldName": "cm"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "spellActionName",
+        "descriptor": "Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "eh"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "modelType2",
+        "descriptor": "I",
+        "decoder": -465503493,
+        "encoder": -406192077,
+        "isStatic": false,
+        "obfuscatedFieldName": "cb"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "isIf3",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bu"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "outline",
+        "descriptor": "I",
+        "decoder": 168489719,
+        "encoder": 518090439,
+        "isStatic": false,
+        "obfuscatedFieldName": "cj"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "buttonType",
+        "descriptor": "I",
+        "decoder": -790461157,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ba"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "modelFrame",
+        "descriptor": "I",
+        "decoder": 1846968521,
+        "encoder": -674776431,
+        "isStatic": false,
+        "obfuscatedFieldName": "gy"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "modelOffsetY",
+        "descriptor": "I",
+        "decoder": -817061329,
+        "encoder": -702946097,
+        "isStatic": false,
+        "obfuscatedFieldName": "dc"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "modelOffsetX",
+        "descriptor": "I",
+        "decoder": 987320525,
+        "encoder": 479665157,
+        "isStatic": false,
+        "obfuscatedFieldName": "dg"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "dataText",
+        "descriptor": "Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "el"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "modelOrthogonal",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "dm"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "noScrollThrough",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "gx"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "scrollWidth",
+        "descriptor": "I",
+        "decoder": 633921523,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bx"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "isScrollBar",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "er"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "textShadowed",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "dz"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "mouseOverRedirect",
+        "descriptor": "I",
+        "decoder": 1442276213,
+        "encoder": 608037667,
+        "isStatic": false,
+        "obfuscatedFieldName": "gn"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "yAlignment",
+        "descriptor": "I",
+        "decoder": 1875804249,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bm"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "textLineHeight",
+        "descriptor": "I",
+        "decoder": 639261355,
+        "encoder": 1276301315,
+        "isStatic": false,
+        "obfuscatedFieldName": "di"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "itemQuantity",
+        "descriptor": "I",
+        "decoder": -1060107107,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "go"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "modelAngleZ",
+        "descriptor": "I",
+        "decoder": 39243971,
+        "encoder": -462266389,
+        "isStatic": false,
+        "obfuscatedFieldName": "dl"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "modelTransparency",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "da"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "parentId",
+        "descriptor": "I",
+        "decoder": -573415813,
+        "encoder": -1949094067,
+        "isStatic": false,
+        "obfuscatedFieldName": "bh"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "rawWidth",
+        "descriptor": "I",
+        "decoder": -1667328247,
+        "encoder": -1480710343,
+        "isStatic": false,
+        "obfuscatedFieldName": "bv"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "textXAlignment",
+        "descriptor": "I",
+        "decoder": -1319573525,
+        "encoder": 739772611,
+        "isStatic": false,
+        "obfuscatedFieldName": "ds"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "spriteId2",
+        "descriptor": "I",
+        "decoder": 561723703,
+        "encoder": 1508583389,
+        "isStatic": false,
+        "obfuscatedFieldName": "cw"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "xAlignment",
+        "descriptor": "I",
+        "decoder": -961347441,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bk"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "sequenceId2",
+        "descriptor": "I",
+        "decoder": 614571141,
+        "encoder": 1252131763,
+        "isStatic": false,
+        "obfuscatedFieldName": "cr"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "x",
+        "descriptor": "I",
+        "decoder": -1667328247,
+        "encoder": -1480710343,
+        "isStatic": false,
+        "obfuscatedFieldName": "bv"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "width",
+        "descriptor": "I",
+        "decoder": -1667328247,
+        "encoder": -1480710343,
+        "isStatic": false,
+        "obfuscatedFieldName": "bv"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "y",
+        "descriptor": "I",
+        "decoder": -1667328247,
+        "encoder": -1480710343,
+        "isStatic": false,
+        "obfuscatedFieldName": "bv"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "scrollY",
+        "descriptor": "I",
+        "decoder": 982634871,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bl"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "modelAngleX",
+        "descriptor": "I",
+        "decoder": 1336385943,
+        "encoder": -844920102,
+        "isStatic": false,
+        "obfuscatedFieldName": "do"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "modelAngleY",
+        "descriptor": "I",
+        "decoder": -2105880485,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "dv"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "opcodes",
+        "descriptor": "[[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "gb"
+      },
+      {
+        "owner": "ng",
+        "fieldName": "scrollX",
+        "descriptor": "I",
+        "decoder": -2065058739,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bj"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "WidgetDefinition",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "nd",
+    "fields": [
+      {
+        "owner": "nd",
+        "fieldName": "widgets",
+        "descriptor": "[[Lng;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "as"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "ScriptEvent",
+    "superClass": "se",
+    "access": 33,
+    "obfuscatedClassName": "da",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "ScriptState",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "cw",
+    "fields": [
+      {
+        "owner": "cw",
+        "fieldName": "stackIndex",
+        "descriptor": "I",
+        "decoder": -1424369897,
+        "encoder": -1961808039,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "cw",
+        "fieldName": "invokedFromScript",
+        "descriptor": "Ldc;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "cw",
+        "fieldName": "localStrings",
+        "descriptor": "[Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "cw",
+        "fieldName": "localInts",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "RuneScriptVM",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "eu",
+    "fields": [
+      {
+        "owner": "eu",
+        "fieldName": "varcMap",
+        "descriptor": "Ljava/util/Map;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "eu",
+        "fieldName": "cycle",
+        "descriptor": "J",
+        "decoder": 7269891442893699467,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aa"
+      },
+      {
+        "owner": "eu",
+        "fieldName": "changed",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "as"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Server",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "cj",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "RSShadowedFont",
+    "superClass": "kg",
+    "access": 33,
+    "obfuscatedClassName": "lp",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "HealthBarDefinition",
+    "superClass": "sm",
+    "access": 33,
+    "obfuscatedClassName": "gx",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "HealthBarUpdate",
+    "superClass": "se",
+    "access": 33,
+    "obfuscatedClassName": "dp",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "HealthBar",
+    "superClass": "se",
+    "access": 33,
+    "obfuscatedClassName": "db",
+    "fields": [
+      {
+        "owner": "db",
+        "fieldName": "definition",
+        "descriptor": "Lgx;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "db",
+        "fieldName": "nodeList",
+        "descriptor": "Lpo;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "TaskDataNode",
+    "superClass": "se",
+    "access": 1057,
+    "obfuscatedClassName": "bj",
+    "fields": [
+      {
+        "owner": "bj",
+        "fieldName": "audioNode",
+        "descriptor": "Lcx;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "am"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "AbstractSoundSystem",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "bf",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "SoundSystem",
+    "superClass": "bf",
+    "access": 33,
+    "obfuscatedClassName": "av",
+    "fields": [
+      {
+        "owner": "av",
+        "fieldName": "sourceDataLine",
+        "descriptor": "Ljavax/sound/sampled/SourceDataLine;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "av",
+        "fieldName": "bytes",
+        "descriptor": "[B",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "av",
+        "fieldName": "length",
+        "descriptor": "I",
+        "decoder": -646379339,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "av",
+        "fieldName": "audioFormat",
+        "descriptor": "Ljavax/sound/sampled/AudioFormat;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "AudioTask",
+    "superClass": "bj",
+    "access": 33,
+    "obfuscatedClassName": "mo",
+    "fields": [
+      {
+        "owner": "mo",
+        "fieldName": "hashTable",
+        "descriptor": "Ltl;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "AudioRequestNode",
+    "superClass": "bj",
+    "access": 33,
+    "obfuscatedClassName": "bs",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "AreaSoundEmitter",
+    "superClass": "se",
+    "access": 49,
+    "obfuscatedClassName": "ck",
+    "fields": [
+      {
+        "owner": "ck",
+        "fieldName": "soundIds",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aj"
+      },
+      {
+        "owner": "ck",
+        "fieldName": "emittingObject",
+        "descriptor": "Lhe;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "an"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "AudioRunnable",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "be",
+    "fields": [
+      {
+        "owner": "be",
+        "fieldName": "audioSystem",
+        "descriptor": "[Lbf;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "AudioTrack",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "bq",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "AbstractNameableComparator",
+    "superClass": "java/lang/Object",
+    "access": 1057,
+    "obfuscatedClassName": "rg",
+    "fields": [
+      {
+        "owner": "rg",
+        "fieldName": "comparator",
+        "descriptor": "Ljava/util/Comparator;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "NameableContainer",
+    "superClass": "java/lang/Object",
+    "access": 1057,
+    "obfuscatedClassName": "re",
+    "fields": [
+      {
+        "owner": "re",
+        "fieldName": "comparator",
+        "descriptor": "Ljava/util/Comparator;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "af"
+      },
+      {
+        "owner": "re",
+        "fieldName": "nameables",
+        "descriptor": "[Lra;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ak"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "FriendContainer",
+    "superClass": "re",
+    "access": 33,
+    "obfuscatedClassName": "rh",
+    "fields": [
+      {
+        "owner": "rh",
+        "fieldName": "size",
+        "descriptor": "I",
+        "decoder": 1,
+        "encoder": 598026195,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "rh",
+        "fieldName": "loginType",
+        "descriptor": "Lte;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "rh",
+        "fieldName": "friendUpdateList",
+        "descriptor": "Lpy;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "FriendListLink",
+    "superClass": "sw",
+    "access": 33,
+    "obfuscatedClassName": "rk",
+    "fields": [
+      {
+        "owner": "rk",
+        "fieldName": "world",
+        "descriptor": "S",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "rk",
+        "fieldName": "startCycle",
+        "descriptor": "I",
+        "decoder": -1925686629,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "rk",
+        "fieldName": "name",
+        "descriptor": "Lvn;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "IgnoreContainer",
+    "superClass": "re",
+    "access": 33,
+    "obfuscatedClassName": "rn",
+    "fields": [
+      {
+        "owner": "rn",
+        "fieldName": "loginType",
+        "descriptor": "Lte;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "ChatPlayer",
+    "superClass": "ra",
+    "access": 33,
+    "obfuscatedClassName": "ry",
+    "fields": [
+      {
+        "owner": "ry",
+        "fieldName": "world",
+        "descriptor": "I",
+        "decoder": 548444203,
+        "encoder": 1585224061,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      }
+    ],
+    "methods": [
+      {
+        "owner": "ry",
+        "methodName": "hasWorld()",
+        "descriptor": "()Z",
+        "isStatic": false,
+        "obfuscatedMethodName": "bn"
+      },
+      {
+        "owner": "ry",
+        "methodName": "set()",
+        "descriptor": "(II)V",
+        "isStatic": false,
+        "obfuscatedMethodName": "by"
+      },
+      {
+        "owner": "ry",
+        "methodName": "getWorld()",
+        "descriptor": "()I",
+        "isStatic": false,
+        "obfuscatedMethodName": "bb"
+      }
+    ]
+  },
+  null,
+  {
+    "className": "IgnoredMessage",
+    "superClass": "ra",
+    "access": 33,
+    "obfuscatedClassName": "rb",
+    "fields": [
+      {
+        "owner": "rb",
+        "fieldName": "listIndex",
+        "descriptor": "I",
+        "decoder": -1512486797,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "FriendMessage",
+    "superClass": "ry",
+    "access": 33,
+    "obfuscatedClassName": "rd",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "ClanMember",
+    "superClass": "ry",
+    "access": 33,
+    "obfuscatedClassName": "rj",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "FriendManager",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "ct",
+    "fields": [
+      {
+        "owner": "ct",
+        "fieldName": "loginType",
+        "descriptor": "Lte;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "ct",
+        "fieldName": "ignoreContainer",
+        "descriptor": "Lrn;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "as"
+      },
+      {
+        "owner": "ct",
+        "fieldName": "friendContainer",
+        "descriptor": "Lrh;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      },
+      {
+        "owner": "ct",
+        "fieldName": "status",
+        "descriptor": "I",
+        "decoder": -216489171,
+        "encoder": 1096632650,
+        "isStatic": false,
+        "obfuscatedFieldName": "aa"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "ClanContainer",
+    "superClass": "re",
+    "access": 33,
+    "obfuscatedClassName": "rt",
+    "fields": [
+      {
+        "owner": "rt",
+        "fieldName": "loginType",
+        "descriptor": "Lte;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Occluder",
+    "superClass": "java/lang/Object",
+    "access": 49,
+    "obfuscatedClassName": "ke",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "Hitsplat",
+    "superClass": "sm",
+    "access": 33,
+    "obfuscatedClassName": "hi",
+    "fields": [
+      {
+        "owner": "hi",
+        "fieldName": "amount",
+        "descriptor": "Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ae"
+      },
+      {
+        "owner": "hi",
+        "fieldName": "transformIds",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "av"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "IntegerNode",
+    "superClass": "se",
+    "access": 33,
+    "obfuscatedClassName": "sj",
+    "fields": [
+      {
+        "owner": "sj",
+        "fieldName": "value",
+        "descriptor": "I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "ObjectNode",
+    "superClass": "se",
+    "access": 33,
+    "obfuscatedClassName": "sb",
+    "fields": [
+      {
+        "owner": "sb",
+        "fieldName": "value",
+        "descriptor": "Ljava/lang/Object;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "UrlRequest",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "eb",
+    "fields": [
+      {
+        "owner": "eb",
+        "fieldName": "response",
+        "descriptor": "[B",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      },
+      {
+        "owner": "eb",
+        "fieldName": "url",
+        "descriptor": "Ljava/net/URL;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": [
+      {
+        "owner": "eb",
+        "methodName": "complete",
+        "descriptor": "()Z",
+        "isStatic": false,
+        "obfuscatedMethodName": "aq"
+      }
+    ]
+  },
+  {
+    "className": "AbstractRequester",
+    "superClass": "java/lang/Object",
+    "access": 1057,
+    "obfuscatedClassName": "el",
+    "fields": [
+      {
+        "owner": "el",
+        "fieldName": "clientRevision",
+        "descriptor": "I",
+        "decoder": 850496283,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "el",
+        "fieldName": "closed",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "el",
+        "fieldName": "thread",
+        "descriptor": "Ljava/lang/Thread;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "el",
+        "fieldName": "requests",
+        "descriptor": "Ljava/util/Queue;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "UrlRequester",
+    "superClass": "el",
+    "access": 33,
+    "obfuscatedClassName": "eg",
+    "fields": [
+      {
+        "owner": "eg",
+        "fieldName": "https",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "AppletParameter",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "kl",
+    "fields": [
+      {
+        "owner": "kl",
+        "fieldName": "key",
+        "descriptor": "Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "as"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "PlatformInfo",
+    "superClass": "se",
+    "access": 33,
+    "obfuscatedClassName": "sg",
+    "fields": [
+      {
+        "owner": "sg",
+        "fieldName": "os",
+        "descriptor": "I",
+        "decoder": 180468389,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bt"
+      }
+    ],
+    "methods": [
+      {
+        "owner": "sg",
+        "methodName": "getDeviceId()",
+        "descriptor": "(I)Ljava/lang/String;",
+        "isStatic": false,
+        "obfuscatedMethodName": "al"
+      }
+    ]
+  },
+  {
+    "className": "PlatformInfoProvider",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "sd",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "WorldMapLabelSize",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "jh",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "WorldMapLabel",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "ja",
+    "fields": [
+      {
+        "owner": "ja",
+        "fieldName": "labelSize",
+        "descriptor": "Ljh;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "ja",
+        "fieldName": "text",
+        "descriptor": "Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Coordinate",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "ns",
+    "fields": [
+      {
+        "owner": "ns",
+        "fieldName": "plane",
+        "descriptor": "I",
+        "decoder": -1626902329,
+        "encoder": 1295232777,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "ns",
+        "fieldName": "x",
+        "descriptor": "I",
+        "decoder": 1359676603,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "ns",
+        "fieldName": "y",
+        "descriptor": "I",
+        "decoder": 831568535,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "AbstractWorldMapIcon",
+    "superClass": "java/lang/Object",
+    "access": 1057,
+    "obfuscatedClassName": "jd",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "WorldMapDecoration",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "fv",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "AbstractWorldMapData",
+    "superClass": "java/lang/Object",
+    "access": 1057,
+    "obfuscatedClassName": "jo",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "WorldMapArea",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "jw",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "WorldMapRenderer",
+    "superClass": "java/lang/Object",
+    "access": 49,
+    "obfuscatedClassName": "jn",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "WorldMapRectangle",
+    "superClass": "java/lang/Object",
+    "access": 49,
+    "obfuscatedClassName": "jb",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "WorldMapArchiveLoader",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "tg",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "WorldMapSprite",
+    "superClass": "java/lang/Object",
+    "access": 49,
+    "obfuscatedClassName": "je",
+    "fields": [
+      {
+        "owner": "je",
+        "fieldName": "tileColors",
+        "descriptor": "[I",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      }
+    ],
+    "methods": [
+      {
+        "owner": "je",
+        "methodName": "getTileColor()",
+        "descriptor": "(II)I",
+        "isStatic": false,
+        "obfuscatedMethodName": "aq"
+      }
+    ]
+  },
+  {
+    "className": "WorldMap",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "ts",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "IWorldMapSection",
+    "superClass": "java/lang/Object",
+    "access": 1537,
+    "obfuscatedClassName": "kv",
+    "fields": [],
+    "methods": [
+      {
+        "owner": "kv",
+        "methodName": "containsCoordinate()",
+        "descriptor": "(IIII)Z",
+        "isStatic": false,
+        "obfuscatedMethodName": "aw"
+      },
+      {
+        "owner": "kv",
+        "methodName": "read()",
+        "descriptor": "(Luq;I)V",
+        "isStatic": false,
+        "obfuscatedMethodName": "as"
+      },
+      {
+        "owner": "kv",
+        "methodName": "getBorderTileLengths()",
+        "descriptor": "(IIII)[I",
+        "isStatic": false,
+        "obfuscatedMethodName": "ai"
+      },
+      {
+        "owner": "kv",
+        "methodName": "coordinate()",
+        "descriptor": "(III)Lns;",
+        "isStatic": false,
+        "obfuscatedMethodName": "ar"
+      },
+      {
+        "owner": "kv",
+        "methodName": "expandBounds()",
+        "descriptor": "(Ljw;I)V",
+        "isStatic": false,
+        "obfuscatedMethodName": "aq"
+      },
+      {
+        "owner": "kv",
+        "methodName": "containsPosition()",
+        "descriptor": "(III)Z",
+        "isStatic": false,
+        "obfuscatedMethodName": "al"
+      }
+    ]
+  },
+  {
+    "className": "KitDefinition",
+    "superClass": "sm",
+    "access": 33,
+    "obfuscatedClassName": "gc",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "FileRequest",
+    "superClass": "sm",
+    "access": 33,
+    "obfuscatedClassName": "og",
+    "fields": [
+      {
+        "owner": "og",
+        "fieldName": "padding",
+        "descriptor": "B",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "og",
+        "fieldName": "crc",
+        "descriptor": "I",
+        "decoder": 1831422623,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "og",
+        "fieldName": "archive",
+        "descriptor": "Lom;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Overlay",
+    "superClass": "sm",
+    "access": 33,
+    "obfuscatedClassName": "gc",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "HorizontalAlignment",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "hj",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "VerticalAlignment",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "hk",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "WorldMapElement",
+    "superClass": "sm",
+    "access": 33,
+    "obfuscatedClassName": "gv",
+    "fields": [
+      {
+        "owner": "gv",
+        "fieldName": "horizontalAlignment",
+        "descriptor": "Lhj;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ay"
+      },
+      {
+        "owner": "gv",
+        "fieldName": "verticalAlignment",
+        "descriptor": "Lhk;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ae"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "IEnumerated",
+    "superClass": "java/lang/Object",
+    "access": 1537,
+    "obfuscatedClassName": "pp",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "WorldMapSectionType",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "ip",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "Bounds",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "rc",
+    "fields": [
+      {
+        "owner": "rc",
+        "fieldName": "lowX",
+        "descriptor": "I",
+        "decoder": 925427607,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "rc",
+        "fieldName": "lowY",
+        "descriptor": "I",
+        "decoder": 1599578727,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "rc",
+        "fieldName": "highX",
+        "descriptor": "I",
+        "decoder": 925427607,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "rc",
+        "fieldName": "highY",
+        "descriptor": "I",
+        "decoder": 1599578727,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "NanoTimer",
+    "superClass": "in",
+    "access": 33,
+    "obfuscatedClassName": "is",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "AbstractTimer",
+    "superClass": "java/lang/Object",
+    "access": 1057,
+    "obfuscatedClassName": "in",
+    "fields": [],
+    "methods": [
+      {
+        "owner": "in",
+        "methodName": "mark()",
+        "descriptor": "()V",
+        "isStatic": false,
+        "obfuscatedMethodName": "aq"
+      },
+      {
+        "owner": "in",
+        "methodName": "wait()",
+        "descriptor": "()I",
+        "isStatic": false,
+        "obfuscatedMethodName": "aw"
+      }
+    ]
+  },
+  {
+    "className": "MilliTimer",
+    "superClass": "in",
+    "access": 33,
+    "obfuscatedClassName": "io",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "LanguageType",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "pe",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "BuildType",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "oy",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "GameEngine",
+    "superClass": "java/applet/Applet",
+    "access": 1057,
+    "obfuscatedClassName": "bm",
+    "fields": [
+      {
+        "owner": "bm",
+        "fieldName": "eventQueue",
+        "descriptor": "Ljava/awt/EventQueue;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bp"
+      },
+      {
+        "owner": "bm",
+        "fieldName": "keyboardListener",
+        "descriptor": "Lap;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "be"
+      },
+      {
+        "owner": "bm",
+        "fieldName": "graphicsTickTimes",
+        "descriptor": "[J",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "aj"
+      },
+      {
+        "owner": "bm",
+        "fieldName": "canvas",
+        "descriptor": "Ljava/awt/Canvas;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bq"
+      },
+      {
+        "owner": "bm",
+        "fieldName": "clientTickTimes",
+        "descriptor": "[J",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "ax"
+      },
+      {
+        "owner": "bm",
+        "fieldName": "mouseWheelListener",
+        "descriptor": "Lae;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bn"
+      },
+      {
+        "owner": "bm",
+        "fieldName": "gameEngine",
+        "descriptor": "Lbm;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "bm",
+        "fieldName": "clipboard",
+        "descriptor": "Ljava/awt/datatransfer/Clipboard;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "br"
+      },
+      {
+        "owner": "bm",
+        "fieldName": "frame",
+        "descriptor": "Ljava/awt/Frame;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "bi"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "RouteStrategy",
+    "superClass": "java/lang/Object",
+    "access": 1057,
+    "obfuscatedClassName": "ih",
+    "fields": [],
+    "methods": [
+      {
+        "owner": "ih",
+        "methodName": "haveArrived()",
+        "descriptor": "()Z",
+        "isStatic": false,
+        "obfuscatedMethodName": "aq"
+      }
+    ]
+  },
+  {
+    "className": "ApproximateRouteStrategy",
+    "superClass": "ih",
+    "access": 33,
+    "obfuscatedClassName": "cu",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "FileSystemRequestHandler",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "or",
+    "fields": [
+      {
+        "owner": "or",
+        "fieldName": "object",
+        "descriptor": "Ljava/lang/Object;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "ar"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "ArchiveLoader",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "dw",
+    "fields": [
+      {
+        "owner": "dw",
+        "fieldName": "archive",
+        "descriptor": "Lom;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "ActorSpotAnim",
+    "superClass": "se",
+    "access": 33,
+    "obfuscatedClassName": "vh",
+    "fields": [
+      {
+        "owner": "vh",
+        "fieldName": "spotAnimation",
+        "descriptor": "I",
+        "decoder": 220726741,
+        "encoder": -1340148605,
+        "isStatic": false,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "vh",
+        "fieldName": "spotAnimationFrameCycleMAYBE",
+        "descriptor": "I",
+        "decoder": 1679217923,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "vh",
+        "fieldName": "spotAnimationFrame",
+        "descriptor": "I",
+        "decoder": 2061168829,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "vh",
+        "fieldName": "spotAnimationHeight",
+        "descriptor": "I",
+        "decoder": 607949201,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "ar"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "AddRequestTask",
+    "superClass": "qe",
+    "access": 33,
+    "obfuscatedClassName": "ql",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "ITextureLoader",
+    "superClass": "java/lang/Object",
+    "access": 1537,
+    "obfuscatedClassName": "lo",
+    "fields": [],
+    "methods": [
+      {
+        "owner": "lo",
+        "methodName": "getAverageTextureRGB()",
+        "descriptor": "(II)I",
+        "isStatic": false,
+        "obfuscatedMethodName": "ai"
+      },
+      {
+        "owner": "lo",
+        "methodName": "getTexturePixels()",
+        "descriptor": "(IB)[I",
+        "isStatic": false,
+        "obfuscatedMethodName": "al"
+      },
+      {
+        "owner": "lo",
+        "methodName": "isLowDetail()",
+        "descriptor": "(IB)Z",
+        "isStatic": false,
+        "obfuscatedMethodName": "as"
+      }
+    ]
+  },
+  {
+    "className": "IUsername",
+    "superClass": "java/lang/Object",
+    "access": 1537,
+    "obfuscatedClassName": "ru",
+    "fields": [],
+    "methods": [
+      {
+        "owner": "ru",
+        "methodName": "username()",
+        "descriptor": "(B)Lvn;",
+        "isStatic": false,
+        "obfuscatedMethodName": "ox"
+      }
+    ]
+  },
+  {
+    "className": "ISoundSystem",
+    "superClass": "java/lang/Object",
+    "access": 1537,
+    "obfuscatedClassName": "bx",
+    "fields": [],
+    "methods": [
+      {
+        "owner": "bx",
+        "methodName": "abstractSoundSystem()",
+        "descriptor": "(I)Lbf;",
+        "isStatic": false,
+        "obfuscatedMethodName": "aq"
+      }
+    ]
+  },
+  {
+    "className": "IMouseWheel",
+    "superClass": "java/lang/Object",
+    "access": 1537,
+    "obfuscatedClassName": "ij",
+    "fields": [],
+    "methods": [
+      {
+        "owner": "ij",
+        "methodName": "useRotation()",
+        "descriptor": "(I)I",
+        "isStatic": false,
+        "obfuscatedMethodName": "al"
+      }
+    ]
+  },
+  {
+    "className": "IPacket",
+    "superClass": "java/lang/Object",
+    "access": 1537,
+    "obfuscatedClassName": "lz",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "IPlatformInfoProvider",
+    "superClass": "java/lang/Object",
+    "access": 1537,
+    "obfuscatedClassName": "tr",
+    "fields": [],
+    "methods": [
+      {
+        "owner": "tr",
+        "methodName": "getPlatformInfo",
+        "descriptor": "(I)Lsg;",
+        "isStatic": false,
+        "obfuscatedMethodName": "aq"
+      }
+    ]
+  },
+  {
+    "className": "BZip2State",
+    "superClass": "java/lang/Object",
+    "access": 49,
+    "obfuscatedClassName": "ue",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "Calendar",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "nq",
+    "fields": [
+      {
+        "owner": "nq",
+        "fieldName": "MONTH_TRANSLATIONS",
+        "descriptor": "[[Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "aq"
+      },
+      {
+        "owner": "nq",
+        "fieldName": "CALENDAR",
+        "descriptor": "Ljava/util/Calendar;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "al"
+      },
+      {
+        "owner": "nq",
+        "fieldName": "DAYS_OF_THE_WEEK",
+        "descriptor": "[Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "aw"
+      }
+    ],
+    "methods": []
+  },
+  {
+    "className": "Interpreter",
+    "superClass": "java/lang/Object",
+    "access": 33,
+    "obfuscatedClassName": "ca",
+    "fields": [],
+    "methods": []
+  },
+  {
+    "className": "Client",
+    "superClass": "bm",
+    "access": 49,
+    "obfuscatedClassName": "client",
+    "fields": [
+      {
+        "owner": "client",
+        "fieldName": "viewportTempX",
+        "descriptor": "I",
+        "decoder": -1052478027,
+        "encoder": -1012306077,
+        "isStatic": true,
+        "obfuscatedFieldName": "lb"
+      },
+      {
+        "owner": "client",
+        "fieldName": "viewportTempY",
+        "descriptor": "I",
+        "decoder": 954664791,
+        "encoder": -1003017319,
+        "isStatic": true,
+        "obfuscatedFieldName": "ly"
+      },
+      {
+        "owner": "client",
+        "fieldName": "viewportHeight",
+        "descriptor": "I",
+        "decoder": 1835053825,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "vo"
+      },
+      {
+        "owner": "gf",
+        "fieldName": "localPlayer",
+        "descriptor": "Ldj;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "mo"
+      },
+      {
+        "owner": "dw",
+        "fieldName": "widgetDefinition",
+        "descriptor": "Lnd;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "ea"
+      },
+      {
+        "owner": "client",
+        "fieldName": "playerMenuActions",
+        "descriptor": "[Ljava/lang/String;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "my"
+      },
+      {
+        "owner": "bw",
+        "fieldName": "mouseHandler",
+        "descriptor": "Lbw;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "ai"
+      },
+      {
+        "owner": "client",
+        "fieldName": "viewportOffsetY",
+        "descriptor": "I",
+        "decoder": -368886745,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "vc"
+      },
+      {
+        "owner": "client",
+        "fieldName": "membersWorld",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "cn"
+      },
+      {
+        "owner": "dc",
+        "fieldName": "cameraYaw",
+        "descriptor": "I",
+        "decoder": -60125901,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "kb"
+      },
+      {
+        "owner": "client",
+        "fieldName": "keyInputHandler",
+        "descriptor": "Liw;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "sk"
+      },
+      {
+        "owner": "client",
+        "fieldName": "grandExchangeOffers",
+        "descriptor": "[Loa;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "vj"
+      },
+      {
+        "owner": "client",
+        "fieldName": "logoutTimer",
+        "descriptor": "I",
+        "decoder": -1385349531,
+        "encoder": 2082215088,
+        "isStatic": true,
+        "obfuscatedFieldName": "is"
+      },
+      {
+        "owner": "client",
+        "fieldName": "cameraAngleX",
+        "descriptor": "I",
+        "decoder": 1411178027,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "kw"
+      },
+      {
+        "owner": "client",
+        "fieldName": "worldId",
+        "descriptor": "I",
+        "decoder": 838367065,
+        "encoder": 838367065,
+        "isStatic": true,
+        "obfuscatedFieldName": "co"
+      },
+      {
+        "owner": "client",
+        "fieldName": "resizable",
+        "descriptor": "Z",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "rm"
+      },
+      {
+        "owner": "client",
+        "fieldName": "viewportWidth",
+        "descriptor": "I",
+        "decoder": -1305150611,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "vi"
+      },
+      {
+        "owner": "client",
+        "fieldName": "audioEffect",
+        "descriptor": "[Lbn;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "tt"
+      },
+      {
+        "owner": "client",
+        "fieldName": "viewportOffsetX",
+        "descriptor": "I",
+        "decoder": -582890335,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "vk"
+      },
+      {
+        "owner": "client",
+        "fieldName": "cameraAngleDX",
+        "descriptor": "I",
+        "decoder": -1937402279,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "kg"
+      },
+      {
+        "owner": "mb",
+        "fieldName": "cameraY",
+        "descriptor": "I",
+        "decoder": -766053417,
+        "encoder": -659116057,
+        "isStatic": true,
+        "obfuscatedFieldName": "kj"
+      },
+      {
+        "owner": "client",
+        "fieldName": "approximateRouteStrategy",
+        "descriptor": "Lcu;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "we"
+      },
+      {
+        "owner": "ad",
+        "fieldName": "cameraZ",
+        "descriptor": "I",
+        "decoder": -442066059,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "kf"
+      },
+      {
+        "owner": "rj",
+        "fieldName": "cameraX",
+        "descriptor": "I",
+        "decoder": -1257119545,
+        "encoder": -228663049,
+        "isStatic": true,
+        "obfuscatedFieldName": "ka"
+      },
+      {
+        "owner": "client",
+        "fieldName": "otlTokenRequester",
+        "descriptor": "Lcom/jagex/oldscape/pub/OtlTokenRequester;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "gl"
+      },
+      {
+        "owner": "hc",
+        "fieldName": "varbitCache",
+        "descriptor": "Lll;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "client",
+        "fieldName": "playerDefinition",
+        "descriptor": "Lnt;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "vn"
+      },
+      {
+        "owner": "bm",
+        "fieldName": "gameEngine",
+        "descriptor": "Lbm;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "aw"
+      },
+      {
+        "owner": "client",
+        "fieldName": "viewportZoom",
+        "descriptor": "I",
+        "decoder": -1562005381,
+        "encoder": 1,
+        "isStatic": true,
+        "obfuscatedFieldName": "vl"
+      },
+      {
+        "owner": "client",
+        "fieldName": "refreshAccessTokenRequester",
+        "descriptor": "Lcom/jagex/oldscape/pub/RefreshAccessTokenRequester;",
+        "decoder": 1,
+        "encoder": 1,
+        "isStatic": false,
+        "obfuscatedFieldName": "gk"
+      },
+      {
+        "owner": "client",
+        "fieldName": "runEnergy",
+        "descriptor": "I",
+        "decoder": 508408261,
+        "encoder": -1573739251,
+        "isStatic": true,
+        "obfuscatedFieldName": "pt"
+      },
+      {
+        "owner": "ct",
+        "fieldName": "cameraPitch",
+        "descriptor": "I",
+        "decoder": 1321952883,
+        "encoder": -1433489733,
+        "isStatic": true,
+        "obfuscatedFieldName": "ko"
+      }
+    ],
+    "methods": []
+  }
+]
